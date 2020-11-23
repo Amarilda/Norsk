@@ -1,0 +1,32 @@
+bot> Hei, dette er Yunha. Thiago er ikke her i dag. Håper det er OK. Hvem snakker jeg med? Hva heter du?
+usr> Jeg heter Edīte
+bot> Hei, Ed, hvordan går det?
+usr> Det går bra
+bot> Det går bra med meg også. Hvor kommer du fra?
+usr> Jeg kommer fra Jurmala, Latvia
+bot> Så spennende! Jeg kommer fra Sør-Korea. Er du student - jeg mener: er du student på universitet eller høyskole?
+usr> Jeg er student på universitet.
+bot> Nettopp. Bor du i en studentby eller hjemme hos mor og far?
+usr> Jeg bor hjemme med kjæreste.
+bot> Ja, det er praktisk. Nå bor jeg på hybel i en studentby. Det er også fint. Men jeg må lage all maten selv. Lager du mat selv?
+usr> Ja, jeg lager mat selv
+bot> Du er flink! Har du stor familie, far, mor, bror, søster?
+usr> Nei, jeg har ikke stor familie
+bot> Javel. Hva liker du å spise?
+usr> Jeg liker å spise supper, ramen og fisk.
+bot> Ja vel. Her på studentbyen spiser jeg litt kjedelig mat, så jeg vil gjerne ha litt inspirasjon. Hva spiser du til middag i dag?
+usr> Jeg spiste nudler med grønnsaker og svinekjøtt
+bot> Det høres godt ut. Kanskje jeg skal lage det samme. En annen ting, Ed: har du mange venner?
+usr> Nei, jeg har flere venner.
+bot> Har du en spesielt god venn?
+usr> Ja, jeg har en spesielt god venn. 
+bot> Kan du fortelle meg litt om vennen din?
+usr> Hun er veldig smart og penn, hun leser en bok i dag.
+bot> Jeg skjønner. Nå sitter jeg her med en kopp te. Liker du te?
+usr> Te er ok. 
+bot> Jeg liker både kaffe og te. Men nå må jeg ta en tur ut. Det er så fint vær her. Hvordan er været hos deg? Er det sol hos deg, eller regner det?
+usr> Det er sol her.
+bot> Oslo er best når det er sol. Nå må jeg gå ut en tur i sola. Det var veldig hyggelig å hilse på deg. Kanskje vi kan ha kontakt siden?
+usr> Ja, vi kan ha kontakt siden.
+bot> OK. Ha det bra. Vi snakkes.
+usr> Vi snakes. 
