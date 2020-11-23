@@ -1,0 +1,36 @@
+bot> Hei, dette er Thiago igjen. Hvem snakker jeg med?
+usr> Jeg heter Edite.
+bot> Hei, Edite. Har vi snakket sammen før, for eksempel på første dag?
+usr> Ja, vi har snakket sammen for. 
+bot> Hvordan går det med deg i dag, da?
+usr> Jeg hår det bra.
+bot> Det går bra med meg også. Er du aktiv i kommentarfeltet til kurset?
+usr> Ja, jeg er aktiv i kommentarfeltet til kurset.
+bot> Det er bra! Det er smart å ha kontakt med de andre på kurset. Skriver du på norsk eller engelsk?
+usr> Jeg skrive på engelsk.
+bot> Kanskje du vil prøve å skrive litt på norsk? Har du fått respons på det du skriver?
+usr> Nå skrive jeg på norsk, ikke sant?
+bot> Du må bare fortsette. Det kommer sikkert respons litt senere. Nå er jeg litt trøtt. Du skjønner, jeg hater å stå opp om morgenen, men nå må jeg stå opp tidlig for å studere, allerede klokka sju. Liker du å stå opp om morgenen?
+usr> Når trenger jeg å stå opp jeg stå opp. 
+bot> Når må du stå opp om morgenen?
+usr> Nei, jeg kan sove lenger.
+bot> OK. Om morgenen, spiser du da frokost hjemme?
+usr> Ja, jeg spiser da frokost hjemme.
+bot> Hva spiser du?
+usr> Jeg drikker en kapp kaffe og spiser brød med egg.
+bot> Gabriele drikker alltid grønn te til frokost. Liker du grønn te?
+usr> Jeg liker en asiatisk grønn te, ikke europisk.
+bot> OK. Personlig tar jeg bare en kopp kaffe hjemme. Jeg har med meg mat til Universitetet. Og på lesesalen har jeg alltid Cola og sjokolade. Hehe :) Det er ikke så veldig sunt! Liker du Cola og sjokolade, Edite?
+usr> Jeg liker dem.
+bot> Ja, det er godt, og bra mot depresjon! Men Gabriele sier at jeg må kutte ut Cola og sjokolade. Jeg spiser for mye sukker! Spiser du sunt, Edite?
+usr> Hva er sunt nå for tiden.
+bot> Bra. En annen ting: Når jeg går ut om morgenen, har jeg på meg jeans eller treningsklær. Du ser på videoene hvordan jeg ser ut! Hva med deg, kan du ha på deg jeans eller treningsklær når du skal jobbe eller studere?
+usr> Jeg kan ha på meg jeans, ikke treningsklær. 
+bot> Er det OK for deg?
+usr> Ja, jeg liker det. Treningsklær er til trening.
+bot> Bra. Nå må jeg spise opp sjokoladen min før Gabriele kommer... Vi skal ta en tur ut i byen sammen. Det var hyggelig å prate med deg.
+usr> Vi snakes.
+bot> Vi snakkes snart igjen, ikke sant?
+usr> Ja
+bot> Ha det bra!
+usr> Ha det!
