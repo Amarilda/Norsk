@@ -6,10 +6,10 @@ bot> Oi, Jurmala, så spennende! Jeg kommer fra Brasil. Er du student?
 usr> Ja, jeg er student.
 bot> Hva studerer du, Edite?
 usr> Jeg studerer Business Analytics.
-bot> Er det vanskelig?
-usr> Det er bra.
+bot> Er det vanskelig? (is it difficult?)
+usr> Det er veldig vanskelig. (It is very difficult)
 bot> OK. Jeg liker å lese på biblioteket. Hvor leser du?
-usr> Jeg leser på hjemme.
+usr> Jeg leser hjemme. (i read at home)
 bot> Det er jo et fint sted å lese! Akkurat nå sitter jeg på kantina og drikker kaffe. Liker du kaffe?
 usr> Kaffe er det beste.
 bot> Ja, kaffe er godt! Jeg drikker det nesten hver dag. Moren min er veldig glad i te, liker du te?
@@ -21,19 +21,20 @@ usr> Nei, jeg liker ikke fotball.
 bot> Men du liker sikkert sport, ikke sant?
 usr> ja sport er bra.
 bot> Hva slags sport liker du? Tennis? Basketball?
-usr> Jeg liker voleyball.
+usr> Jeg liker volleyball.
 bot> Bra. Jeg liker sport, men jeg liker også musikk. Liker du musikk? 
-usr> Ja, jeg liker mussikk.
+usr> Ja, jeg liker musikk.
 bot> Hva hører du mest på? Pop, rock eller klassisk?
-usr> Roch er klassisk, ikke sane.
+usr> Rock er klassisk, ikke sant? (klassisk is classical; Beethoven, mozart, vivaldi and bach. rock is more like linkin park, muse, foo fighters. 
+classic rock is more like beatles, elvis, jerry lee lewis and johnny cash.
 bot> Jeg hører mest på latin-amerikansk musikk. Forresten, Katharina spiller i et band. Spiller du et instrument?
-usr> Nei, jeg spiller ikke instrument.
+usr> Nei, jeg spiller ikke et instrument. (no i dont play instrument > no i dont play an instrument
 bot> Kanskje du har tenkt å lære å spille et instrument?
-usr> nei, det er ikke intressant for mye.
+usr> nei, det er ikke interessant for meg.
 bot> Nei da så. Du høres ut som en interessant person. Vi kan ha kontakt på Facebook. Er du på Facebook?
 usr> Ja jeg er på  Facebook.
 bot> Har du mange venner på Facebook?
-usr> nei, jeg har flere venner på Facebook.
+usr> nei, jeg har noen venner på Facebook. (flere = more, noen = some)
 bot> OK! Takk for praten. Vi snakkes senere.
 usr> Ha det!
 bot> Ha det bra!
