@@ -4,29 +4,29 @@ bot> Hei, Ed, hvordan går det?
 usr> Det går bra
 bot> Det går bra med meg også. Hvor kommer du fra?
 usr> Jeg kommer fra Jurmala, Latvia
-bot> Så spennende! Jeg kommer fra Sør-Korea. Er du student - jeg mener: er du student på universitet eller høyskole?
-usr> Jeg er student på universitet.
+bot> Så spennende! Jeg kommer fra Sør-Korea. Er du student - jeg mener: er du student på et universitet eller høyskole?
+usr> Jeg er student på et universitet.
 bot> Nettopp. Bor du i en studentby eller hjemme hos mor og far?
-usr> Jeg bor hjemme med kjæreste.
+usr> Jeg bor sammen med kjæresten min.
 bot> Ja, det er praktisk. Nå bor jeg på hybel i en studentby. Det er også fint. Men jeg må lage all maten selv. Lager du mat selv?
 usr> Ja, jeg lager mat selv
 bot> Du er flink! Har du stor familie, far, mor, bror, søster?
-usr> Nei, jeg har ikke stor familie
+usr> Nei, jeg har ikke en stor familie
 bot> Javel. Hva liker du å spise?
-usr> Jeg liker å spise supper, ramen og fisk.
+usr> Jeg liker å spise suppe, ramen og fisk.
 bot> Ja vel. Her på studentbyen spiser jeg litt kjedelig mat, så jeg vil gjerne ha litt inspirasjon. Hva spiser du til middag i dag?
-usr> Jeg spiste nudler med grønnsaker og svinekjøtt
+usr> Jeg skal spise nudler med grønnsaker og svinekjøtt
 bot> Det høres godt ut. Kanskje jeg skal lage det samme. En annen ting, Ed: har du mange venner?
-usr> Nei, jeg har flere venner.
+usr> Nei, jeg har noen venner.
 bot> Har du en spesielt god venn?
 usr> Ja, jeg har en spesielt god venn. 
 bot> Kan du fortelle meg litt om vennen din?
-usr> Hun er veldig smart og penn, hun leser en bok i dag.
+usr> Hun er veldig smart og pen, hun leser en bok om dag.
 bot> Jeg skjønner. Nå sitter jeg her med en kopp te. Liker du te?
 usr> Te er ok. 
 bot> Jeg liker både kaffe og te. Men nå må jeg ta en tur ut. Det er så fint vær her. Hvordan er været hos deg? Er det sol hos deg, eller regner det?
 usr> Det er sol her.
 bot> Oslo er best når det er sol. Nå må jeg gå ut en tur i sola. Det var veldig hyggelig å hilse på deg. Kanskje vi kan ha kontakt siden?
-usr> Ja, vi kan ha kontakt siden.
+usr> Ja, vi kan ta kontakt siden.
 bot> OK. Ha det bra. Vi snakkes.
-usr> Vi snakes. 
+usr> Vi snakkes. 
