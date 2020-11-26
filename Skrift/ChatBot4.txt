@@ -3,22 +3,22 @@ usr> Jeg heter Edite.
 bot> Hei, Edite. Hvordan går det med deg i dag?
 usr> Jeg har det bra i dag.
 bot> Godt å høre! Jeg har vært på min første konsert i Oslo i dag. Det var med Katharina. Nå har jeg også lyst til å begynne å spille gitar. Hvilke hobbyer har du?
-usr> Jeg liker maling, Muy Thai og lage mat.
+usr> Jeg liker maling, Muy Thai og Matlaging.
 bot> Det er alltid spennende å høre om andres hobbyer. Min store hobby er musikk. I Norge hører jeg på norsk musikk. Vet du mye om norsk musikk?
-usr> Det er Per Gint og what does the fox say...
+usr> Ja, jeg vet om Peer Gynt og what does the fox say?
 bot> Men da bør du sjekke ut Edvard Grieg eller a-ha eller Kygo på YouTube. Her i Oslo er det mange konserter og festivaler. Jeg liker meg veldig godt i Oslo. Forresten, er du i Oslo nå?
 usr> Ja, jeg er i Oslo.
 bot> Så gøy! Da kan vi kanskje møtes en gang. Jeg synes at det er fantastisk at Oslo er en miljøvennlig by og har et godt kollektivtrafikktilbud. Bruker du kollektivtrafikk her i Oslo?
 usr> Nei, jeg liker å gå.
 bot> OK. Jeg synes at det er praktisk å ta T-banen til Universitetet eller til sentrum. Nok om kollektivtrafikk! Hva har du gjort i dag?
-usr> Jeg har gått på tur, har lært noen norsk.
+usr> Jeg har gått på tur og har lært noe norsk.
 bot> OK. Men hva skal du gjøre etterpå?
-usr> Jeg skal søve snart.
+usr> Jeg skal sove snart.
 bot> Ja vel. Jeg bør gjøre hjemmelekser etterpå, men jeg har lyst til å gå på kino. Går du ofte på kino?
-usr>  Nei, jeg går ikke ofte på kino. Vi har mer den hudre DVD å se i hjemme.
+usr>  Nei, jeg går ikke ofte på kino. Vi har mer enn hundre filmer å se på hjemme.
 bot> Jeg har dessverre ikke hatt tid til å gå på kino i det siste fordi jeg har hatt så mye å gjøre - så mange hjemmelekser. Hjemmelekser eller kino? Dette er et enkelt valg: kino! Har du sett noen bra filmer i det siste?
-usr> I det siste sett jeg Disney movie å lære den norsk, noen film er bra, noen er for enkel.
+usr> I det siste har jeg sett på Disney filmer for å lære norsk, noen filmer er bra, noen er for enkle.
 bot> Interessant. Jeg skal sjekke hvilke filmer som går på kino i Oslo i dag. Det var gøy å chatte med deg.
-usr> Vi snakes.
+usr> Vi snakkes.
 bot> Ha det!
 usr> Ha det!
