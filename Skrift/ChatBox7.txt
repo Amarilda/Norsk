@@ -1,0 +1,37 @@
+bot> Hei, dette er Yunha igjen. Jeg har ikke sett Thiago i dag. Jeg tror han er hjemme og forbereder til festen. Hvem snakker jeg med?
+usr> TMI, Jeg heter Edıte
+bot> Hei, Ed. I dag måtte jeg få hjelp av IT-avdelingen på Universitetet. Jeg hadde noen tekniske problemer. Har du også ofte tekniske problemer med data?
+usr> Jeg er data analyser, det er jobbet min.
+bot> Hvis det skulle være tekniske problemer, klarer du å fikse det selv?
+usr> Jeg prøvde å fikse det selv. det er veldig bra information på netten. når  har jeg ingen administrator  adgang, jeg må vente på specialist.
+bot> Hvem går du til for å få hjelp?
+usr> Stackoverflow eller medlemsforum. Om er det en hjelpedesk, jeg går å dem.
+bot> Hvem er best på data i familien din?
+usr> Jeg er den beste på data i familien min.
+bot> Jeg visste det! Bor du hjemme?
+usr> Jeg bor med kjæreste min.
+bot> Ed, si meg, når du bor sammen med familien, pleier dere da å ha familiefester?
+usr> ja, jeg har en bror. 
+bot> Det høres hyggelig ut. Feirer dere bursdager i familien din?
+usr> vi feirer bursdager. Kjæreste min liker ikke b bursdagen hans. 
+bot> Nei, det er forskjellige tradisjoner når det gjelder bursdager. Hvem pleier å komme på slike familiefester?
+usr> Jeg og kjæreste min.
+bot> Hva pleier dere å gjøre på bursdagsfester?
+usr> jeg skal lage en sitronøstekaken, han skal danse og vi skal spiel kort.
+bot> I dag skal vi hjelpe Thiago med å kjøpe inn til festen på lørdag. Det blir en studentfest med venner. Går du ofte på fester?
+usr> det er corona vi gjør ingen på fester
+bot> Du går sikkert på besøk til noen av og til. Pleier du da å ta med noe?
+usr> jeg pleier pisavlova og salad med meg.
+bot> I Norge er det også vanlig å ta med seg noe. Hva med deg selv, Ed, inviterer du ofte til fest?
+usr> Jeg likker ikke festen på hjemme min.
+bot> Vi skal servere en dipp og pizza på festen til Thiago. Hva slags mat er typisk festmat i hjemlandet ditt?
+usr> Det er mange. Vi har grillt kjøtt, salader og applekaker.
+bot> Interessant! Har du en spesialitet som du pleier å servere?
+usr> Jeg skal Lage pavlova. 
+bot> Det høres godt ut. Hvilke dager i uka synes du er de beste festdagene?
+usr> Nar har jeg tid, kanskje Lørdag_
+bot> I Norge pleier vi å ha fest bare i helgene. Når pleier festene å slutte på kvelden - eller natta?
+usr> Når det er sømmer, vi har festen til morgen, når er det mørk, festen slutter på kveld.
+bot> Wow. Helmaks! Det var hyggelig å høre litt om hva dere gjør i hjemlandet ditt. Nå må jeg jobbe litt. Du får ha det fortsatt bra, Ed!
+usr> Ha det bra.
+bot> Ha det.
