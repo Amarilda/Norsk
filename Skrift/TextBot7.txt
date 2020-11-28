@@ -1,0 +1,42 @@
+bot> Hei, dette er Yunha. Hvem snakker jeg med?
+usr> Jeg heter Edite
+bot> Hei, Edite. Jeg har hatt en veeeeldig lang dag i dag. Hva med deg? Har du hatt en lang dag?
+usr> ja, jeg hatt en lang dag.
+bot> Å. Jeg stod opp klokka sju. Når stod du opp?
+usr> Jeg stop opp klokka seks.
+bot> Det var tidlig. Og hva gjorde du etterpå?
+usr> Jeg hadde en webinar til Masters, jeg lagte blomkål suppe, jeg studerte norsk.
+bot> Samme her. Hva spiste du til frokost?
+usr> Jeg drikke en kafe og spiste brød med øst og salami. Hva spiste du til frokost_
+bot> OK. Etter frokost syklet jeg til Universitetet. Hva gjorde du etter frokost?
+usr> Jeg hadde en webinar til masters.
+bot> Bra! Etter første forelesning hadde jeg en lunsjavtale med Katharina. Når spiste du lunsj?
+usr> Jeg spiste lunsj klokka tre.
+bot> Spiste du sammen med noen?
+usr> Jeg spiste lunsj med kjæreste min.
+bot> OK! Jeg hadde med meg matpakke til lunsjen. Pleier du å ta med deg matpakke til lunsj?
+usr> Jeg vær hjemme, der trenger jeg ingen matpakke. Når pleier matpakke med meg, jeg liker quinoa salad med tomater of mozzarella.
+bot> Det er ikke alltid jeg har tid til å lage matpakke, jeg heller. Nå skal jeg ikke fortelle alle detaljer fra ettermiddagen, men jeg hadde virkelig et fullt program i dag, så nå er jeg litt sliten. Og hvordan føler du deg, Edite?
+usr> Jeg er glad.
+bot> Det er bra. Si meg: Er du student?
+usr> ja, jeg er student
+bot> Har du da en ekstrajobb ved siden av studiene?
+usr> Nei, jeg jobber ikke nå.
+bot> Hvor mange timer synes du en student bør jobbe per uke?
+usr> En student bør jobber ti timer per uke. 
+bot> Helt enig! De fleste studentene her i Oslo har en ekstrajobb ved siden av studiene. Det ser ut til å fungere bra for dem. Er du i Norge nå?
+usr> Ja, jeg er i Norge nå.
+bot> Har du vært i Norge før?
+usr> ja, jeg har vært i norge for
+bot> Hvor i Norge har du vært?
+usr> Jeg har vært i Oslo og Bergen.
+bot> Syntes du det var fint?
+usr> Ja, det var fint.
+bot> Hyggelig at du er fornøyd. Hva har du sett der?
+usr> Jeg ser fjellet og fjorden i Bergen og Opera huset i Oslo.
+bot> Kult! De fleste av studentene som jeg kjenner, er fornøyd med å bo i Oslo og studere her. Jeg liker godt å gå på museer, for eksempel, og nå skal vi snart dra på Folkemuseet sammen. Liker du å gå på museer, Edite?
+usr> Jeg liker å gå på museer.
+bot> Jeg går også alltid på museer når jeg er på ferier eller reiser. Det er mange spennende museer i Oslo. Hvis du er interessert i kultur, er det mange interessante tilbud her. Sjekk ut www.visitoslo.no. OK, Edite, nå må jeg avslutte. Jeg har sagt til familien i Korea at jeg skal ringe til dem. Du får ha en fin dag videre. Det var veldig hyggelig å snakke med deg.
+usr> Ha det.
+bot> Ha det bra. 
+usr> Ha det bra
