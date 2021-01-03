@@ -29,4 +29,8 @@ def VerbBender():
     df.to_excel("VerbBender.xlsx", index = False)
 
 
-VerbBender()
+OneMore = "Y"
+
+while OneMore == "Y":
+    VerbBender()
+    OneMore = input(Y/N)
