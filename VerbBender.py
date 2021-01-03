@@ -33,4 +33,4 @@ OneMore = "Y"
 
 while OneMore == "Y":
     VerbBender()
-    OneMore = input(Y/N)
+    OneMore = input()
