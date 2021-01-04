@@ -34,4 +34,4 @@ OneMore = "Y"
 while OneMore == "Y":
     VerbBender()
     print("One more?")
-    OneMore = input()
+    OneMore = input().upper()
