@@ -33,5 +33,4 @@ OneMore = "Y"
 
 while OneMore == "Y":
     VerbBender()
-    print("One more?")
-    OneMore = input("Y/N?").upper()
+    OneMore = input("One more ? /n Y/N?").upper()
