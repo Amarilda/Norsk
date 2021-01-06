@@ -5,6 +5,10 @@ import random
 verbs = pd.read_excel("verbs.xlsx")
 df = pd.read_excel("VerbBender.xlsx")
 
+#Filter out A2 level verbs
+verbs = verbs[verbs.A2 == "Y"]
+
+
 def VerbBender():
     num = random.randrange(0, len(verbs))
     tenses = ['Infinitive','Present tense','Past tense','Past participle']
