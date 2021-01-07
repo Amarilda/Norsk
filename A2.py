@@ -18,7 +18,7 @@ def VerbBender():
         counter = 0
         atbilde = []
         
-        atbilde.append(date.today().strftime("%d/%m/%Y hh:ss"))
+        atbilde.append(date.today().strftime("%d/%m/%Y %H:%M:%S"))
         atbilde.append(verbs['English'][num])
         
         for i in tenses:
