@@ -6,7 +6,7 @@ verbs = pd.read_excel("verbs.xlsx")
 df = pd.read_excel("VerbBender.xlsx")
 
 #Filter out A2 level verbs
-verbs = verbs[verbs.A2 == "Y"].reset_index()
+verbs = verbs[verbs.A2 == "Y"].reset_index(drop = True)
 
 def VerbBender():
     
@@ -18,7 +18,7 @@ def VerbBender():
         counter = 0
         atbilde = []
         
-        atbilde.append(date.today().strftime("%d/%m/%Y %H:%M:%S"))
+        atbilde.append(date.today().strftime("%d/%m/%Y"))
         atbilde.append(verbs['English'][num])
         
         for i in tenses:
@@ -35,3 +35,4 @@ def VerbBender():
         df.to_excel("VerbBender.xlsx", index = False)  
         
 # You think you have a free will? 
+VerbBender()
