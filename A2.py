@@ -6,7 +6,7 @@ verbs = pd.read_excel("verbs.xlsx")
 df = pd.read_excel("VerbBender.xlsx")
 
 #Filter out A2 level verbs
-verbs = verbs[verbs.A2 == "Y"].reset_index(drop = True)
+verbs = verbs[(verbs[14].notna())| (verbs.A2 == "Y")].reset_index(drop = True)
 
 def VerbBender():
     
