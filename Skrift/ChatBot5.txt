@@ -1,32 +1,32 @@
 bot> Hei, dette er Thiago. Hva heter du?
 usr> Jeg heter Edite
 bot> Hei, Edite. Hvordan er det å lære norsk?
-usr> Det er vanskelig. Norsk er være lik Engelsk.
+usr> Det er vanskelig. Norsk er nesten som Engelsk.
 bot> Nei, det er ikke alltid så lett i begynnelsen. Er det noe du synes er spesielt vanskelig?
-usr> det er for mye uhørlig bokstaver i norsk. 
+usr> det er for mange uhørlige bokstaver i norsk. 
 bot> Ja, det er litt forskjellig som er vanskelig. Jobber du med pc, ipad eller mobil?
 usr> Jeg bruker mobil og jeg jobber med iMac
 bot> Fungerer det fint på mobil?
 usr> Det fungerer fint på mobil.
 bot> Kult. Jeg gjør alt på mobilen. OK. Når på dagen jobber du med norskkurset, om morgenen eller kvelden?
-usr> Jeg står upp, studerer norskkurset eller master, går på tur, ser på TV, studerer mer. 
+usr> Jeg står opp, studerer norsk eller master, går på tur, ser på TV, studerer mer. 
 bot> Samme her! Men når jeg ikke leser og studerer, liker jeg godt å ta en tur på sykkelen. Edite, si meg, har du sykkel?
 usr> Ja, jeg har sykkel. En dag vil jeg sykle til Ekeberg toppen.
 bot> Bra. Alle må ha en sykkel! Sykler du til studier eller jobb?
-usr> Jeg sykler til kjøpsentrum.
+usr> Jeg sykler til kjøpesentere.
 bot> Hvor mange kilometer sykler du hver dag?
 usr> Jeg sykler to kilometer hver dag. 
 bot> Jeg er imponert. Da er du i god form! Sykler du i fritida?
-usr> Når regnet ingen, jeg sykler i fritida.
+usr> Når det ikke regner, sykler jeg.
 bot> Neinei, du har sikkert ikke så mye fritid. Sykling er jo fin trening, men det finnes alternativer. Driver du med annen type trening? Går du for eksempel på treningssenter?
-usr> Alle treningssenter er sengt nå. Jeg liker å go i Kampsport treningssenter
+usr> Alle treningssentre er stengt nå. Jeg liker å gå på Kampsport treningssenter
 bot> Må du betale for det, og er det dyrt?
-usr> Det can bli dyrt. Jeg liker Muy Thai, derfor det er ikke dyrt for meg.
+usr> Det kan være dyrt. Jeg liker Muy Thai, derfor er det ikke dyrt for meg.
 bot> Jeg forstår. Her i Oslo er det mange som liker å løpe ute i naturen. Liker du å løpe eller være ute i naturen?
-usr> Det er for mye menessker på parken og i naturen. Det er ikke bra når det er for høyt.
+usr> Det er for mange mennesker i parken og i naturen. Det er ikke bra når det er for mye bråk.
 bot> OK. Her i Oslo er det blitt populært med elektriske sykler. Har du lyst til å kjøpe en elektrisk sykkel?
-usr> Jeg sykler ikke lange, kanskje når blir jer gammel og trenger å sykle for langt. 
+usr> Jeg sykler ikke langt, kanskje når jeg blir gammel og trenger å sykle langt. 
 bot> Nei, de er ganske dyre også. Kanskje senere.... Edite, jeg må stikke nå. Du får ha det bra!
 usr> Ha det bra
 bot> Det var hyggelig å prate med deg.
-usr> Vi snakes
+usr> Vi snakkes
