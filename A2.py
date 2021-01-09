@@ -1,10 +1,10 @@
 import pandas as pd
 from datetime import datetime
 import random
+import requests
 
 verbs = pd.read_excel("verbs.xlsx")
-df = pd.read_excel("https://github.com/Amarilda/Norsk/blob/master/VerbBender.xlsx")
-
+df = pd.read_excel("VerbBender.xlsx")
 
 #Filter out A2 level verbs
 #verbs = verbs[(verbs[14].notna())| (verbs.A2 == "Y")].reset_index(drop = True)
