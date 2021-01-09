@@ -3,10 +3,12 @@ from datetime import datetime
 import random
 
 verbs = pd.read_excel("verbs.xlsx")
-df = pd.read_excel("VerbBender.xlsx")
+df = pd.read_excel("https://github.com/Amarilda/Norsk/blob/master/VerbBender.xlsx")
+
 
 #Filter out A2 level verbs
-verbs = verbs[(verbs[14].notna())| (verbs.A2 == "Y")].reset_index(drop = True)
+#verbs = verbs[(verbs[14].notna())| (verbs.A2 == "Y")].reset_index(drop = True)
+verbs = verbs[(verbs[14].notna())].reset_index(drop = True)
 
 def VerbBender():
     
@@ -14,6 +16,7 @@ def VerbBender():
 
         tenses = ['Infinitive','Present tense','Past tense','Past participle']
         print(verbs['English'][num])
+        print(verbs[14][num])
 
         counter = 0
         atbilde = []
