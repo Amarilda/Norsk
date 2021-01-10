@@ -12,16 +12,20 @@ verbs = verbs[(verbs[14].notna())].reset_index(drop = True)
 
 def VerbBender():
     
+    dv = 0
     for num in range(0, len(verbs)):
 
         tenses = ['Infinitive','Present tense','Past tense','Past participle']
+
+        print(f"{dv/len(verbs):.0%}")
+
         print(verbs['English'][num])
         print(verbs[14][num])
 
         counter = 0
         atbilde = []
         
-        atbilde.append(datetime.now().strftime("%d/%m/%Y %H:%M:%S.%f"))
+        atbilde.append(datetime.now().strftime("%d/%m/%Y %H:%M:%S"))
         atbilde.append(verbs['English'][num])
         
         for i in tenses:
@@ -32,10 +36,13 @@ def VerbBender():
             if verbs[i][num] != answer:
                 print(verbs[i][num])
                 counter+= 1
-        print("You got "+str((1 - counter/4)*100)+"% correct")
+        print(f"You got {(1 - counter/4):.2%}  correct")
+
         atbilde.append((1 - counter/4)*100)
         df.loc[len(df)] = atbilde
-        df.to_excel("VerbBender.xlsx", index = False)  
+        df.to_excel("VerbBender.xlsx", index = False) 
+
+        dv +=1
         
 # You think you have a free will? 
 VerbBender()
