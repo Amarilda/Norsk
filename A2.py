@@ -13,7 +13,9 @@ verbs = verbs[(verbs[14].notna())].reset_index(drop = True)
 def VerbBender():
     
     dv = 0
-    for num in range(0, len(verbs)):
+    bins = []
+    #for num in range(0, len(verbs)):
+    for num in range(0, 3):
 
         tenses = ['Infinitive','Present tense','Past tense','Past participle']
 
@@ -42,7 +44,9 @@ def VerbBender():
         df.loc[len(df)] = atbilde
         df.to_excel("VerbBender.xlsx", index = False) 
 
+        bins.append((1 - counter/4)*100)
+
         dv +=1
-        
+
 # You think you have a free will? 
 VerbBender()
