@@ -47,6 +47,8 @@ def VerbBender():
         bins.append((1 - counter/4)*100)
 
         dv +=1
+    bins = pd.DataFrame(bins,columns=['bins'])
+    print(bins.bins.value_counts())
 
 # You think you have a free will? 
 VerbBender()
