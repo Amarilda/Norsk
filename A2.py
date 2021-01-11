@@ -14,8 +14,7 @@ def VerbBender():
     
     dv = 0
     bins = []
-    #for num in range(0, len(verbs)):
-    for num in range(0, 3):
+    for num in range(0, len(verbs)):
 
         tenses = ['Infinitive','Present tense','Past tense','Past participle']
 
@@ -48,6 +47,8 @@ def VerbBender():
 
         dv +=1
     bins = pd.DataFrame(bins,columns=['bins'])
+    print()
+    print("Your summary:")
     print(bins.bins.value_counts())
 
 # You think you have a free will? 
