@@ -1,19 +1,33 @@
 import pandas as pd
 from datetime import datetime
+import datetime
 import random
 import requests
 
-verbs = pd.read_excel("verbs.xlsx")
-df = pd.read_excel("VerbBender.xlsx")
-
-#Filter out A2 level verbs
-#verbs = verbs[(verbs[14].notna())| (verbs.A2 == "Y")].reset_index(drop = True)
-verbs = verbs[(verbs[14].notna())].reset_index(drop = True)
 
 def VerbBender():
-    
+
+#Read the files
+    verbs = pd.read_excel("verbs.xlsx")
+    df = pd.read_excel("VerbBender.xlsx")
+    df2 = df[df.Date > datetime.datetime.now() - datetime.timedelta(days=3)]
+
+#Select the perfect score
+    perfect10 =[]
+
+    for i in df2.Verb.unique():
+        if max(df2.Percent[df2.Verb == i]) == 100:
+            perfect10.append(i)
+
+
+#Filter out verbs for training
+    #verbs = verbs[(verbs[14].notna())| (verbs.A2 == "Y")].reset_index(drop = True)
+    verbs = verbs[(verbs[14].notna()) & ~verbs['English'].isin(perfect10)].reset_index(drop = True)
     dv = 0
     bins = []
+
+    print(f'Todays mission is {len(verbs)}')
+    
     for num in range(0, len(verbs)):
 
         tenses = ['Infinitive','Present tense','Past tense','Past participle']
@@ -26,7 +40,7 @@ def VerbBender():
         counter = 0
         atbilde = []
         
-        atbilde.append(datetime.now().strftime("%d/%m/%Y %H:%M:%S"))
+        atbilde.append(datetime.datetime.now())
         atbilde.append(verbs['English'][num])
         
         for i in tenses:
