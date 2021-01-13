@@ -3,6 +3,7 @@ from datetime import datetime
 import datetime
 import random
 import requests
+import streamlit as st
 
 
 def VerbBender():
@@ -18,7 +19,6 @@ def VerbBender():
     for i in df2.Verb.unique():
         if max(df2.Percent[df2.Verb == i]) == 100:
             perfect10.append(i)
-
 
 #Filter out verbs for training
     #verbs = verbs[(verbs[14].notna())| (verbs.A2 == "Y")].reset_index(drop = True)
