@@ -7,7 +7,7 @@ def VerbBender():
 #Read the files
     verbs = pd.read_excel("verbs.xlsx")
     df = pd.read_excel("VerbBender.xlsx")
-    df2 = df[df.Date > datetime.datetime.now() - datetime.timedelta(days=3)]
+    df2 = df[df.Date > datetime.datetime.now() - datetime.timedelta(days=5)]
 
 #Select the perfect score
     perfect10 =[]
@@ -44,6 +44,8 @@ def VerbBender():
         
         atbilde.append(datetime.datetime.now())
         atbilde.append(verbs['English'][num])
+
+        print(verbs['Infinitive'][num])
         
         for i in tenses:
             print(i)
