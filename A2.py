@@ -1,10 +1,6 @@
 import pandas as pd
 from datetime import datetime
 import datetime
-import random
-import requests
-import streamlit as st
-
 
 def VerbBender():
 
@@ -32,6 +28,7 @@ def VerbBender():
 
         tenses = ['Infinitive','Present tense','Past tense','Past participle']
 
+        print()
         print(f"{dv/len(verbs):.0%}")
 
         print(verbs['English'][num])
