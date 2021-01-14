@@ -18,11 +18,12 @@ def VerbBender():
 
 #Filter out verbs for training
     #verbs = verbs[(verbs[14].notna())| (verbs.A2 == "Y")].reset_index(drop = True)
-    verbs = verbs[(verbs[14].notna()) & ~verbs['English'].isin(perfect10)].reset_index(drop = True)
+    verbs = verbs[((verbs[14].notna()) | (verbs.A2 == "Y")) & ~verbs['English'].isin(perfect10)].reset_index(drop = True)
     dv = 0
     bins = []
-
-    print(f'Todays mission is {len(verbs)}')
+ 
+    print()
+    print(f'Todays mission is {len(verbs[verbs[14].notna()])} A2 verbs and {len(verbs.A2 == "Y")} irregular verbs')
     
     for num in range(0, len(verbs)):
 
@@ -32,8 +33,12 @@ def VerbBender():
         print(f"{dv/len(verbs):.0%}")
 
         print(verbs['English'][num])
-        print(verbs[14][num])
-
+        
+        if (verbs['A2'][num]).lower() == "y":
+            print('Irregular Joe')
+        else:
+            print(verbs[14][num])
+        
         counter = 0
         atbilde = []
         
