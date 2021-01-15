@@ -1,0 +1,23 @@
+14/01/2021
+
+Adding irregular verbs in the mix,Ouch, those stats.
+
+13/01/2021
+
+Data Professor
+https://www.youtube.com/watch?v=JwSS70SZdyM
+
+Would need to rewrite everything in st. What a gem!!!
+
+Cleaned verbs.xlsx with two options for answear. 
+
+FuzzyWuzzy appers to be working only with English. Nice to know that to Eddie closest word from my corpus is dø. XD
+In addition, vocabulary needs to be expanded.
+
+HS, need to figure out how amend onky one sheet, without deleting other sheets.
+
+
+09/01/2021
+
+Add progress bar, to go through them takes forever (45 minutes !!!) 
+very, very sneaky space
