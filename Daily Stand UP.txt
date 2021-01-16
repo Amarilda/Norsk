@@ -1,3 +1,17 @@
+GET DATA IN CSV
+
+16/01/2021
+
+50.0     27
+75.0     11
+25.0      5
+100.0     4
+0.0       2
+
+15/01/2021
+
+Installed SelfControl :D 
+
 14/01/2021
 
 Adding irregular verbs in the mix,Ouch, those stats.
@@ -9,15 +23,14 @@ https://www.youtube.com/watch?v=JwSS70SZdyM
 
 Would need to rewrite everything in st. What a gem!!!
 
-Cleaned verbs.xlsx with two options for answear. 
+Cleaned verbs.xlsx with two options for answer. 
 
 FuzzyWuzzy appers to be working only with English. Nice to know that to Eddie closest word from my corpus is dø. XD
 In addition, vocabulary needs to be expanded.
 
-HS, need to figure out how amend onky one sheet, without deleting other sheets.
-
+HS, need to figure out how amend only one sheet, without deleting other sheets.
 
 09/01/2021
 
 Add progress bar, to go through them takes forever (45 minutes !!!) 
-very, very sneaky space
+Verbs.xlsx is so dirty, extra spaces, half of them dont have å or har, some has 2 or 3 variants of the past. 
