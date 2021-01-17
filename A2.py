@@ -34,7 +34,7 @@ def VerbBender():
 
         print(verbs['English'][num])
         
-        if (verbs['A2'][num]).lower() == "y":
+        if verbs['A2'][num] == "Y":
             print('Irregular Joe')
         else:
             print(verbs[14][num])
@@ -45,7 +45,9 @@ def VerbBender():
         atbilde.append(datetime.datetime.now())
         atbilde.append(verbs['English'][num])
 
-        print(verbs['Infinitive'][num])
+        
+        if verbs['A2'][num] == "Y":
+            print(verbs['Infinitive'][num])
         
         for i in tenses:
             print(i)
