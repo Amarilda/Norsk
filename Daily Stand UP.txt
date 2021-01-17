@@ -3,6 +3,8 @@ GET DATA IN CSV
 
 17/01/2021
 
+Show hint only for the irregular verbs
+
 Your summary:
 50.0     28
 100.0    26
