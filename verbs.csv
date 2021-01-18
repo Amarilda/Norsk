@@ -33,7 +33,7 @@ bite,å bite,biter,betalte,har bit,,
 "bark, yap",å bjeffe,bjeffer,bjeffet,har bjeffet,,
 "blend, mix",å blande,blander,blandet,har blandet,,
 blow,å blåse,blåser,blåste,har blåst,,
-be,å bli,blir,ble / blei,har blitt,,Y
+be,å bli,blir,ble,har blitt,,Y
 bleed,å blø,blør,blødde,har blødd,,
 "live, reside",å bo,bor,bodde,har bodd,dde,
 break,å brekke,brekker,brakk,har brukket,,
@@ -42,7 +42,7 @@ bring,å bringe,bringer,brakte,har brakt,,
 burst,å briste,brister,brast,har bristet,,
 use,å bruke,bruker,brukte,har brukt,te,
 bother,å bry,bryr,brydde,har brydd,,
-"violate, break",å bryte,bryter,"brøt, brøyt",har brutt,,Y
+"violate, break",å bryte,bryter,brøt,har brutt,,Y
 should,å burde,bør,burde,har burdet,,Y
 "offer, bid",å by,byr,bød,har budt,,
 build,å bygge,bygger,bygde,har bygd,,
@@ -53,11 +53,11 @@ to cover,å dekke,dekker,dekket,har dekket,et,
 democratize ,å demokratisere,demokratiserer,demokratiserte,har demokratisert,,
 this,å dette,detter,datt,har dettet,,
 discuss,å diskutere,diskuterer,diskuterte,har diskutert,,
-die,å dø,dør,dødde,har dødd,de,
-go/travel,å dra,drar,dro(g),har dratt,,Y
+die,å dø,dør,døde,har dødd,de,
+go/travel,å dra,drar,dro,har dratt,,Y
 kill,å drepe,dreper,drepte,har drept,,
 drink,å drikke,drikker,drakk,har drukket,,Y
-"operate, run",å drive,driver,drev / dreiv,har drevet,,Y
+"operate, run",å drive,driver,drev,har drevet,,Y
 dream,å drømme,drømmer,drømte,har drømt,,
 shower,å dusje,dusjer,dusjet,har dusjet,et,
 cultivate,å dyrke,dyrker,dyrket,har dyrket,,
@@ -269,7 +269,6 @@ smoke,å ryke,ryker,"røk, røyk",har røket,,
 saw,å sage,sager,saget,har saget,,
 work together,å samarbeide,samarbeider,samarbeidet,har samarbeidet,,
 compare,å sammenlikne,sammenlikner,sammenliknet,har sammenliknet,,
-to realx,å slappe,slapper,slappet,har slappet,et,
 lack,å savne,savner,savnet,har savnet,,
 see,å se,ser,så,har sett,,Y
 sell,å selge,selger,solgte,har solgt,,Y
@@ -299,6 +298,7 @@ hasten,å skynde,skynder,skyndte,har skyndet,,
 shoot,å skyte,skyter,"skjøt, skøyt",har skutt,,
 "push, shove",å skyve,skyver,"skjøv, skøyv",har skjøvet,,
 "hit, strike",å slå,slår,slo,har slått,,Y
+to realx,å slappe,slapper,slappet,har slappet,et,
 fight,å slåss,slåss,sloss,har slåss,,
 throw,å slenge,slenger,slang,har slengt,,
 drop,å slippe,slipper,slapp,har sluppet,,Y
