@@ -2,11 +2,16 @@ import pandas as pd
 from datetime import datetime
 import datetime
 
+start = datetime.datetime.now()
+
 def VerbBender():
 
 #Read the files
     verbs = pd.read_excel("verbs.xlsx")
     df = pd.read_excel("VerbBender.xlsx")
+
+    print(datetime.datetime.now()-start)
+
     df2 = df[df.Date > datetime.datetime.now() - datetime.timedelta(days=5)]
 
 #Select the perfect score
