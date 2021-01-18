@@ -1,5 +1,21 @@
-GET DATA IN CSV
+FIX ENTRY INTO CSV å, ø, æ
+FIX DAILY GREETING
 
+18/01/2021
+
+GET DATA IN CS: Speed improvement
+
+CSV -  0:00:00.012633
+XLSX - 0:00:00.413166
+
+Before 11AM all B1/B2 tests are sold out. I am feeling relief but also annoyance. Should make an account so next time, for summer portion, I don't need to find Anders phone as +44 is not accepted.
+
+Todays mission is 0 A2 verbs and 56 irregular verbs.
+
+Your summary:
+50.0    19
+75.0    18
+25.0     6
 
 17/01/2021
 
@@ -12,8 +28,9 @@ Your summary:
 25.0      4
 0.0       1
 
-
 16/01/2021
+
+Anders gave me Norwegian keyboard. Allegedly, he has given it to me before, however, I cannot recall. Probably, when I was depressed while taking Descriptive analytics.
 
 50.0     27
 75.0     11
@@ -38,7 +55,7 @@ Would need to rewrite everything in st. What a gem!!!
 
 Cleaned verbs.xlsx with two options for answer. 
 
-FuzzyWuzzy appers to be working only with English. Nice to know that to Eddie closest word from my corpus is dø. XD
+FuzzyWuzzy appears to be working only with English. Nice to know that to Eddie closest word from my corpus is 'dø'. XD
 In addition, vocabulary needs to be expanded.
 
 HS, need to figure out how amend only one sheet, without deleting other sheets.
@@ -46,4 +63,4 @@ HS, need to figure out how amend only one sheet, without deleting other sheets.
 09/01/2021
 
 Add progress bar, to go through them takes forever (45 minutes !!!) 
-Verbs.xlsx is so dirty, extra spaces, half of them dont have å or har, some has 2 or 3 variants of the past. 
+Verbs.xlsx is so dirty, extra spaces, half of them don't have 'å' or 'har', some has 2 or 3 variants of the past. 
