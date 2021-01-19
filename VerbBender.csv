@@ -769,3 +769,40 @@ Date,Verb,Infinitive,Present tense,Past tense,Past participle,Percent
 2021-01-19 08:20:38.905233,get/receive,å få,får,få,har fikk,50.0
 2021-01-19 08:21:01.856587,find,å finne,finner,fint,har fantet,50.0
 2021-01-19 08:21:14.400569,prefer,å foretrekke,foretrekker,foretrakk,har foretrukk,75.0
+2021-01-19 08:21:43.559173,disappear,å forsvinne,forsvinner,forsvunt,har forsvant,50.0
+2021-01-19 08:30:52.807354,"tell, explain",å fortelle,forteller,fortell,har fortalt,75.0
+2021-01-19 08:31:54.556345,continue,å fortsette,forsetter,fortsatt,har forsatt,25.0
+2021-01-19 08:32:19.857493,repeat,å gjenta,gjentar,gjant,har gjentok,50.0
+2021-01-19 08:32:42.889928,do,å gjøre,gjør,gjort,har gjørd,50.0
+2021-01-19 08:33:04.345903,help,å hjelpe,hjelper,hjalp,har hjelpet,75.0
+2021-01-19 08:33:21.646323,cough,å hoste,hoster,hostet,har hostet,100.0
+2021-01-19 08:33:54.143367,remember,å huske,husker,husket,har husket,100.0
+2021-01-19 08:34:08.711544,cast,å gjemme,kaster,kastet,har kastet,75.0
+2021-01-19 08:34:38.697947,laugh,å le,ler,lir,har l,50.0
+2021-01-19 08:34:50.512134,lay/put,å legge,legger,lagg,har lagg,50.0
+2021-01-19 08:35:08.742686,lie,å ligge,ligger,ligte,har ligt,50.0
+2021-01-19 08:35:31.233553,must/have to ,å måtte,må,måtte,har måttet,100.0
+2021-01-19 08:35:52.752389,enjoy,å nyte,nyter,nytt,har nyttet,50.0
+2021-01-19 08:36:08.446482,to fix,å passe,ordner,ordnet,har ordnet,75.0
+2021-01-19 08:41:23.460964,exaggerate,å overdrive,overdriver,overdrø,har overdrev,50.0
+2021-01-19 08:41:48.587746,reach,å rekke,rekker,rekk,har rakt,75.0
+2021-01-19 08:42:03.618578,ride,å ri,rir,rod,har redd,50.0
+2021-01-19 08:42:27.529878,tidy,å rydde,rydder,ryddet,har ryddet,100.0
+2021-01-19 08:42:44.366508,see,å se,se,se,har sått,25.0
+2021-01-19 08:42:53.105626,set/put/place,å sette,setter,sitt,har satt,75.0
+2021-01-19 08:43:08.703124,"say, tell",å si,sir,sir,har satt,25.0
+2021-01-19 08:44:43.529650,sit,å sitte,sitter,satte,har satt,50.0
+2021-01-19 08:48:05.225677,to scare,å skike,skremmer,skremte,har skremt,75.0
+2021-01-19 08:48:27.213612,"hit, strike",å slå,slår,slått,har slo,50.0
+2021-01-19 08:48:38.402346,drop,å slippe,slipper,slapp,har slapp,75.0
+2021-01-19 08:48:54.610967,sneak,å snike,sniker,snekt,har sneket,75.0
+2021-01-19 08:49:12.225089,sleep,å sove,sover,sovt,har sovet,75.0
+2021-01-19 08:51:24.017346,ask,å spørre,spørrer,har spørt,har spurt,50.0
+2021-01-19 08:51:45.096514,"stand, stand up",å stå,srår,stått,har stodet,25.0
+2021-01-19 08:51:59.271651,steal,å stjele,stjeler,stjelt,har stjal,50.0
+2021-01-19 08:52:18.294178,stroke,å stryke,stryker,stryk,har strøk,50.0
+2021-01-19 08:52:40.788639,take,å ta,tar,tatt,har tatt,75.0
+2021-01-19 08:52:53.869886,count,å telle,teller,tolt,har talt,75.0
+2021-01-19 08:53:04.870018,meet/hit,å treffe,treffer,treff,har traff,50.0
+2021-01-19 08:54:09.289996,pull,å trekke,trekker,trekt,har trakket,50.0
+2021-01-19 08:54:24.224115,know,å vite,vit,har vite,har visst,50.0
