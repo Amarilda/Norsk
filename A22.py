@@ -29,7 +29,8 @@ def VerbBender():
     bins = []
  
     print()
-   #print(f"Todays mission is {len(verbs[verbs['Ending'].notna()])} A2 verbs and {len(verbs.A2 == "Y")} irregular verbs")
+#print(f"Todays mission is {len(verbs[verbs['Ending'].notna()])} A2 verbs and {len(verbs.A2 == "Y")} irregular verbs")
+    print(f'Todays mission is {len(verbs[verbs.Ending.notna()])} A2 verbs and {len(verbs[verbs.A2 == "Y"])} irregular verbs')
     
     for num in range(0, len(verbs)):
 
