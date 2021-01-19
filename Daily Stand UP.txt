@@ -1,5 +1,15 @@
-FIX ENTRY INTO CSV å, ø, æ
-FIX DAILY GREETING
+Add right answers
+
+19/01/2021
+
+FIX DAILY GREETING 
+Todays mission is 7 A2 verbs and 43 irregular verbs
+
+Your summary:
+50.0     25
+75.0     17
+100.0     4
+25.0      4
 
 18/01/2021
 
