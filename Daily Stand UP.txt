@@ -1,10 +1,27 @@
-Add right answers
+GOALS:
+Goal till end of week - review irregulars 5 a day.
+May I dream of a dashboard? or battle of IG's first?
+
+ONE THING WHAT WOULD BRING THE GREATEST IMPROVEMENT:
+Change W+C to Ctrl+C. IK, Mac, windows keyboard. To be completely scattered - run Linux XD
+Apply Levenshtein distance, tackle the ones with one change away.
+
+20/01/2021
+Amended appending to it would capture the correct answers as well.
+Therefore, need for Vlookup is absolute. 
+Added random day from 1-8 for the revision.
+
+Todays mission is 37 A2 verbs and 53 irregular verbs.
+Your summary:
+50.0     34
+75.0     28
+100.0    24
+25.0      2
+0.0       1
 
 19/01/2021
-
 FIX DAILY GREETING 
 Todays mission is 7 A2 verbs and 43 irregular verbs
-
 Your summary:
 50.0     25
 75.0     17
@@ -12,23 +29,19 @@ Your summary:
 25.0      4
 
 18/01/2021
-
 GET DATA IN CS: Speed improvement
-
 CSV -  0:00:00.012633
 XLSX - 0:00:00.413166
 
 Before 11AM all B1/B2 tests are sold out. I am feeling relief but also annoyance. Should make an account so next time, for summer portion, I don't need to find Anders phone as +44 is not accepted.
 
 Todays mission is 0 A2 verbs and 56 irregular verbs.
-
 Your summary:
 50.0    19
 75.0    18
 25.0     6
 
 17/01/2021
-
 Show hint only for the irregular verbs
 
 Your summary:
@@ -39,7 +52,6 @@ Your summary:
 0.0       1
 
 16/01/2021
-
 Anders gave me Norwegian keyboard. Allegedly, he has given it to me before, however, I cannot recall. Probably, when I was depressed while taking Descriptive analytics.
 
 50.0     27
@@ -49,15 +61,13 @@ Anders gave me Norwegian keyboard. Allegedly, he has given it to me before, howe
 0.0       2
 
 15/01/2021
-
-Installed SelfControl :D 
+Installed SelfControl :D If only it would be so easy.
+pip install patience
 
 14/01/2021
-
 Adding irregular verbs in the mix,Ouch, those stats.
 
 13/01/2021
-
 Data Professor
 https://www.youtube.com/watch?v=JwSS70SZdyM
 
@@ -71,6 +81,5 @@ In addition, vocabulary needs to be expanded.
 HS, need to figure out how amend only one sheet, without deleting other sheets.
 
 09/01/2021
-
 Add progress bar, to go through them takes forever (45 minutes !!!) 
 Verbs.xlsx is so dirty, extra spaces, half of them don't have 'å' or 'har', some has 2 or 3 variants of the past. 
