@@ -10,6 +10,7 @@ def VerbBender():
     df = pd.read_csv("VerbBender.csv")
     df['Date'] = pd.to_datetime(df['Date'])
     e = random.randint(2,9)
+    print(e)
     df2 = df[df.Date > datetime.datetime.now() - datetime.timedelta(days=e)]
 
 #Select the perfect score
