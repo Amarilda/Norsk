@@ -6,6 +6,14 @@ ONE THING WHAT WOULD BRING THE GREATEST IMPROVEMENT:
 Change W+C to Ctrl+C. IK, Mac, windows keyboard. To be completely scattered - run Linux XD
 Apply Levenshtein distance, tackle the ones with one change away.
 
+21/01/2021
+
+Your summary:
+50.0     21
+75.0     19
+100.0     4
+25.0      4
+
 20/01/2021
 Amended appending to it would capture the correct answers as well.
 Therefore, need for Vlookup is absolute. 
