@@ -3,11 +3,18 @@ Goal till end of week - review irregulars 5 a day.
 May I dream of a dashboard? or battle of IG's first?
 
 ONE THING WHAT WOULD BRING THE GREATEST IMPROVEMENT:
-Change W+C to Ctrl+C. IK, Mac, windows keyboard. To be completely scattered - run Linux XD
 Apply Levenshtein distance, tackle the ones with one change away.
 
-21/01/2021
+22/01/2021
+Your summary:
+50.0     19
+75.0     17
+100.0    16
+25.0      7
 
+Chaned W+C to Ctrl+C. At the moment it is painful, as I am half re-trained on W+C. Wrote script for Jamie to concatenate csv. IK, this is not related to Norwegian, but at the moment I dont keep general daily log.
+
+21/01/2021
 Your summary:
 50.0     21
 75.0     19
