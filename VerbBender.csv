@@ -946,3 +946,62 @@ Date,Verb,C1,Infinitive,C2,Present tense,C3,Past tense,C4,Past participle,Percen
 2021-01-21 08:47:28.737268,to joke ,å tulle,å telle,tuller,tuller,tullet,tull,har tullet,har tullet,50.0
 2021-01-21 08:47:42.736650,show,å vise,å snø,viser,viser,viste,vist,har vist,har vist,50.0
 2021-01-21 08:47:53.796636,know,å vite,å vite,vet,viter,visste,har viter,har visst,har visst,50.0
+2021-01-22 11:52:26.586365,"bear, carry",å bære,å bære,bærer,bærer,bar,bar,har båret,har båret,100.0
+2021-01-22 11:53:29.008040,ask,å be,å be,ber,ber,ba,bir,har bedt,har bådet,50.0
+2021-01-22 11:53:46.547569,begin,å begynne,å begynne,begynner,begynner,begynte,begynte,har begynt,har begynt,100.0
+2021-01-22 11:54:03.280570,be,å bli,å bli,blir,blir,ble,ble,har blitt,har blåd,75.0
+2021-01-22 11:54:19.199493,"violate, break",å bryte,å bryte,bryter,bryter,brøt,brøtt,har brutt,har brøt,50.0
+2021-01-22 11:54:42.375261,should,å burde,å burde,bør,burder,burde,burde,har burdet,har burdet,75.0
+2021-01-22 11:54:56.214917,die,å dø,å dø,dør,dør,døde,dødde,har dødd,har død,50.0
+2021-01-22 11:55:08.878220,go/travel,å dra,å dra,drar,drar,dro,drak,har dratt,har drevet,50.0
+2021-01-22 11:55:40.228815,drink,å drikke,å drikke,drikker,drikker,drakk,drak,har drukket,har druket,50.0
+2021-01-22 11:55:54.373934,"operate, run",å drive,å drive,driver,driver,drev,drev,har drevet,har drevet,100.0
+2021-01-22 11:56:04.706862,get/receive,å få,å få,får,får,fikk,fått,har fått,har fått,75.0
+2021-01-22 11:56:36.408389,find,å finne,å finne,finner,finner,fant,fan,har funnet,har finnet,50.0
+2021-01-22 11:56:58.778536,"be, feel",å føle,å føle,føler,føler,følte,følte,har følt,har følt,100.0
+2021-01-22 11:57:15.518465,prefer,å foretrekke,å foretrekke,foretrekker,foretrekker,foretrakk,foretrak,har foretrukket,har foretrakket,50.0
+2021-01-22 11:57:37.815502,understand,å forstå,å forstå,forstår,forsår,forsto,forstor,har forstått,har forstod,25.0
+2021-01-22 11:58:08.301519,disappear,å forsvinne,å forsvinne,forsvinner,forsvinner,forsvant,forsvant,har forsvunnet,har forsvant,75.0
+2021-01-22 11:58:28.304119,"tell, explain",å fortelle,å fortelle,forteller,forteller,fortalte,fortalt,har fortalt,har fortalt,75.0
+2021-01-22 11:58:42.295958,continue,å fortsette,å fortsette,fortsetter,fortsetter,fortsatte,forstsatte,har fortsatt,har fortsatt,75.0
+2021-01-22 11:59:14.841672,"go, walk",å gå,å gå,går,går,gikk,gikk,har gått,har gått,100.0
+2021-01-22 11:59:29.448916,give,å gi,å gi,gir,gir,gav,gok,har gitt,har gitt,75.0
+2021-01-22 12:00:14.533659,repeat,å gjenta,å gjenta,gjentar,gjentar,gjentok,gjentok,har gjentatt,har gjentok,75.0
+2021-01-22 12:00:39.437705,do,å gjøre,å gjøre,gjør,gjor,gjorde,har gjørd,har gjort,har gjørd,25.0
+2021-01-22 12:01:30.009365,have,å ha,å ha,har,har,hadde,hadde,har hatt,har hatt,100.0
+2021-01-22 12:01:40.914182,"fetch, bring",å hente,å hente,henter,henter,hentet,hentet,har hentet,har hentet,100.0
+2021-01-22 12:01:55.639602,be called/named,å hete,å heter,heter,heter,hette,hette,har hett,har hett,75.0
+2021-01-22 12:02:07.960368,to throw,å kaste,å kaste,kaster,kaster,kastet,kastet,har kastet,har kastet,100.0
+2021-01-22 12:02:21.511633,laugh,å le,å le,ler,ler,lo,lir,har ledd,har lett,50.0
+2021-01-22 12:02:33.213508,lay/put,å legge,å legge,legger,legger,la,legt,har lagt,har lett,50.0
+2021-01-22 12:02:46.782438,"live, be alive",å leve,å bø,lever,lever,levde,levde,har levd,har levd,75.0
+2021-01-22 12:03:00.670331,lie,å ligge,å ligge,ligger,liggert,lå,ligg,har ligget,har ligt,25.0
+2021-01-22 12:03:32.978071,enjoy,å nyte,å nyte,nyter,nyter,nøt,nytt,har nytt,har nytt,75.0
+2021-01-22 12:03:43.753501,to fix,å ordne,å ordne,ordner,ordner,ordnet,ordnet,har ordnet,har ordnet,100.0
+2021-01-22 12:03:59.626007,exaggerate,å overdrive,å overdrive,overdriver,overdriver,overdrev,overdrev,har overdrevet,har overdrevet,100.0
+2021-01-22 12:04:23.743648,"clean, polish",å pusse,pusse,pusser,pusser,pusset,pusset,har pusset,har pusset,75.0
+2021-01-22 12:06:36.567851,reach,å rekke,å rekke,rekker,rekker,rakte,rek,har rakt,ar rekket,50.0
+2021-01-22 12:07:00.607522,ride,å ri,å ri,rir,rir,red,ror,har ridd,har redet,50.0
+2021-01-22 12:07:13.470573,see,å se,å se,ser,ser,så,sir,har sett,har sir,50.0
+2021-01-22 12:07:34.092802,sell,å selge,å selge,selger,selger,solgte,solgt,har solgt,har solgt,75.0
+2021-01-22 12:07:44.604238,send,å sende,å sende,sender,sender,sendte,sendte,har sendt,har sendt,100.0
+2021-01-22 12:08:07.227292,set/put/place,å sette,å sette,setter,setter,satte,satt,har satt,har satt,75.0
+2021-01-22 12:08:22.420165,"say, tell",å si,å si,sier,sir,sa,se,har sagt,har satt,25.0
+2021-01-22 12:08:35.266663,sit,å sitte,å sitte,sitter,sitter,satt,satte,har sittet,har satt,50.0
+2021-01-22 12:08:50.555142,cut,å skjære,å skjære,skjærer,skjær,skar,skjær,har skåret,har skjærer,25.0
+2021-01-22 12:09:16.224834,understand,å skjønne,å skjønne,skjønner,skjønner,skjønte,skjønte,har skjønt,har skjønt,100.0
+2021-01-22 12:09:42.413587,"hit, strike",å slå,å slå,slår,slår,slo,slør,har slått,har slo,50.0
+2021-01-22 12:10:16.860853,drop,å slippe,å slippe,slipper,slipper,slapp,slipt,har sluppet,har slappet,50.0
+2021-01-22 12:10:27.804739,"end, close",å slutte,å slutte,slutter,slutter,sluttet,slutt,har sluttet,har sluttet,75.0
+2021-01-22 12:10:47.466991,sneak,å snike,å snike,sniker,sniker,snek,snekt,har sneket,har sneket,75.0
+2021-01-22 12:11:03.489516,sleep,å sove,å sove,sover,sover,sov,sov,har sovet,har sovet,100.0
+2021-01-22 12:11:12.792577,ask,å spørre,å spørre,spør,spør,spurte,spurte,har spurt,har spurt,100.0
+2021-01-22 12:11:29.743466,"stand, stand up",å stå,å stå,står,står,stod,sta,har stått,har stodet,50.0
+2021-01-22 12:11:59.030976,steal,å stjele,å stjele,stjeler,stjeler,stjal,stjelt,har stjålet,har stjalet,50.0
+2021-01-22 12:12:18.365704,stroke,å stryke,å stryje,stryker,stryker,strøk,strykte,har strøket,har strøk,25.0
+2021-01-22 12:12:37.604250,count,å telle,å telle,teller,teller,talte,talt,har talt,har tlt,50.0
+2021-01-22 12:12:49.900752,meet/hit,å treffe,å treffe,treffer,treffer,traff,treffe,har truffet,har traffet,50.0
+2021-01-22 12:13:09.425888,pull,å trekke,å trekke,trekker,trekker,trakk,trakk,har trukket,har trakket,75.0
+2021-01-22 12:13:24.291531,to joke ,å tulle,å tulle,tuller,tuller,tullet,tullet,har tullet,har tullet,100.0
+2021-01-22 12:13:39.849872,show,å vise,å vise,viser,viser,viste,viste,har vist,har vist,100.0
+2021-01-22 12:13:51.832149,know,å vite,å vite,vet,viter,visste,vite,har visst,har visste,25.0
