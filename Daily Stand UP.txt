@@ -5,6 +5,14 @@ May I dream of a dashboard? or battle of IG's first?
 ONE THING WHAT WOULD BRING THE GREATEST IMPROVEMENT:
 Apply Levenshtein distance, tackle the ones with one change away.
 
+24/01/2021
+Your summary:
+50.0     15
+75.0     11
+25.0      5
+100.0     1
+
+
 23/01/2021
 Your summary:
 50.0     21
