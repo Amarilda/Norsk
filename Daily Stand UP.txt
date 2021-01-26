@@ -1,5 +1,6 @@
 GOALS:
 Finish Nils1 and Karense in January. 
+Add -et and Y to the verbbender.csv
 
 postponed:
 Goal till end of week - review irregulars 5 a day. 
