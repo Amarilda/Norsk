@@ -1,9 +1,22 @@
 GOALS:
-Goal till end of week - review irregulars 5 a day.
+Finish Nils1 and Karense in January. 
+
+postponed:
+Goal till end of week - review irregulars 5 a day. 
 May I dream of a dashboard? or battle of IG's first?
 
 ONE THING WHAT WOULD BRING THE GREATEST IMPROVEMENT:
 Apply Levenshtein distance, tackle the ones with one change away.
+
+26/01/2021
+It is easier to apply Levenshtein, when working with one days worth of data. So I set todays schedule - workout, VB and then reflective. From now on to include verb review into reflective. 
+
+Todays mission is 66 A2 verbs and 56 irregular verbs, 53% correct.
+Your summary:
+100.0    65
+75.0     30
+50.0     24
+25.0      2
 
 24/01/2021
 Your summary:
@@ -27,7 +40,7 @@ Your summary:
 100.0    16
 25.0      7
 
-Chaned W+C to Ctrl+C. At the moment it is painful, as I am half re-trained on W+C. Wrote script for Jamie to concatenate csv. IK, this is not related to Norwegian, but at the moment I dont keep general daily log.
+Changed W+C to Ctrl+C. At the moment it is painful, as I am half re-trained on W+C. Wrote script for Jamie to concatenate csv. IK, this is not related to Norwegian, but at the moment I don't keep general daily log.
 
 21/01/2021
 Your summary:
