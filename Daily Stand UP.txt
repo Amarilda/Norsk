@@ -10,8 +10,12 @@ ONE THING WHAT WOULD BRING THE GREATEST IMPROVEMENT:
 Apply Levenshtein distance, tackle the ones with one change away.
 
 29/01/2021
-
-
+Todays mission is 11 A2 verbs and 30 irregular verbs
+Your summary:
+50.0     18
+75.0      7
+100.0     4
+25.0      2
 
 28/01/2021
 Todays mission is 18 A2 verbs and 38 irregular verbs
