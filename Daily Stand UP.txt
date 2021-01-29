@@ -9,6 +9,10 @@ May I dream of a dashboard? or battle of IG's first?
 ONE THING WHAT WOULD BRING THE GREATEST IMPROVEMENT:
 Apply Levenshtein distance, tackle the ones with one change away.
 
+29/01/2021
+
+
+
 28/01/2021
 Todays mission is 18 A2 verbs and 38 irregular verbs
 Your summary:
@@ -16,7 +20,6 @@ Your summary:
 75.0     14
 100.0    12
 25.0      1
-
 
 26/01/2021
 It is easier to apply Levenshtein, when working with one days worth of data. So I set todays schedule - workout, VB and then reflective. From now on to include verb review into reflective. 
