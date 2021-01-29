@@ -3,12 +3,10 @@ import Levenshtein as lev
 import datetime as datetime
 
 df = pd.read_csv("VerbBender.csv")
-
 today = pd.to_datetime('today').normalize()
-
 df2 =df[(df.Percent != 100) & (pd.to_datetime(df['Date']) > today)].reset_index(drop = True)
 
-AlmostThere = []
+AlmostThere =[]
 
 for i in range(0,df2.shape[0]-1):
     for j in [2,4,6,8]:
@@ -83,12 +81,18 @@ while len(AlmostThere) !=0:
 
         bins.append((1 - counter/4)*100)
 
+
+
+        if (1 - counter/4) ==100:
+            AlmostThere.remove(verbs['Infinitive'][num])
+
         dv +=1
+
     bins = pd.DataFrame(bins,columns=['bins'])
     print()
     print("Your summary:")
     print(bins.bins.value_counts())
     print(f'{(len(bins[bins.bins == 100])/len(bins)):.2f}')
 
-# You think you have a free will? 
-VerbBender()
+
+    
