@@ -1,13 +1,11 @@
 GOALS:
-Finish Nils1 and Karense in January. 
+
 Add -et and Y to the verbbender.csv
 
-postponed:
-Goal till end of week - review irregulars 5 a day. 
+Finish Nils1 and Karense in January. 
 May I dream of a dashboard? or battle of IG's first?
 
 ONE THING WHAT WOULD BRING THE GREATEST IMPROVEMENT:
-Apply Levenshtein distance, tackle the ones with one change away.
 
 29/01/2021
 Todays mission is 11 A2 verbs and 30 irregular verbs
