@@ -15,7 +15,6 @@ for i in range(0,df2.shape[0]-1):
         distance = lev.distance(df2.iloc[:, j][i],df2.iloc[:, j+1][i])
         ratio = lev.ratio(df2.iloc[:, j][i],df2.iloc[:, j+1][i])
         if distance ==1:
-            print(df2.C1[i], df2.iloc[:, j][i],df2.iloc[:, j+1][i])
             AlmostThere.append(df2.C1[i])
 
 while len(AlmostThere) !=0:
@@ -24,7 +23,6 @@ while len(AlmostThere) !=0:
     df = pd.read_csv("VerbBender.csv")
     df['Date'] = pd.to_datetime(df['Date'])
     df2 = df[pd.to_datetime(df['Date']) > today].reset_index(drop = True)
-    print(len(df2))
     
     #Select the perfect score
     perfect10 =[]
@@ -36,7 +34,6 @@ while len(AlmostThere) !=0:
     #Filter out verbs for training
     #verbs = verbs[(verbs[14].notna())| (verbs.A2 == "Y")].reset_index(drop = True)
     verbs = verbs[verbs.Infinitive.isin(AlmostThere) & ~verbs['English'].isin(perfect10)].reset_index(drop = True)
-    print(len(verbs))
     
     dv = 0
     bins = []
@@ -91,6 +88,7 @@ while len(AlmostThere) !=0:
     print()
     print("Your summary:")
     print(bins.bins.value_counts())
+    print(f'{(len(bins[bins.bins == 100])/len(bins)):.2f}')
 
 # You think you have a free will? 
 VerbBender()
