@@ -1312,3 +1312,26 @@ Date,Verb,C1,Infinitive,C2,Present tense,C3,Past tense,C4,Past participle,Percen
 2021-01-29 11:04:49.753136,drop,å slippe,å slippe,slipper,slipper,slapp,slapp,har sluppet,har sluppet,100.0
 2021-01-29 11:05:11.515276,"stand, stand up",å stå,å stå,står,står,stod,sto,har stått,har stoddet,50.0
 2021-01-29 11:05:26.961233,lay/put,å legge,å legge,legger,legger,la,lagt,har lagt,har lagt,75.0
+2021-01-29 11:37:57.533082,lay/put,å legge,å legge,legger,legger,la,lagt,har lagt,har lagt,75.0
+2021-01-29 11:38:19.887794,enjoy,å nyte,å nyte,nyter,nyter,nøt,nøt,har nytt,har nytt,100.0
+2021-01-29 11:38:34.680244,ride,å ri,å ri,rir,rir,red,red,har ridd,har ridd,100.0
+2021-01-29 11:38:49.506415,see,å se,å se,ser,ser,så,sa,har sett,har satt,50.0
+2021-01-29 11:39:01.185659,"say, tell",å si,å so,sier,sier,sa,sa,har sagt,har sått,50.0
+2021-01-29 11:39:11.526211,sit,å sitte,å sitte,sitter,sitter,satt,satt,har sittet,har satt,75.0
+2021-01-29 11:39:23.468144,cut,å skjære,å skjære,skjærer,skjærer,skar,skjært,har skåret,har skåret,75.0
+2021-01-29 11:39:59.779370,"stand, stand up",å stå,å stå,står,står,stod,sto,har stått,har stodd,50.0
+2021-01-29 11:42:21.701784,lay/put,å legge,å legge,legger,legger,la,lagt,har lagt,har laget,50.0
+2021-01-29 11:42:31.087564,see,å se,å se,ser,ser,så,sa,har sett,har sett,75.0
+2021-01-29 11:42:45.965166,"say, tell",å si,å si,sier,sier,sa,sa,har sagt,har sagt,100.0
+2021-01-29 11:43:33.659099,sit,å sitte,å sitte,sitter,sitter,satt,satt,har sittet,har sittet,100.0
+2021-01-29 11:43:45.147967,cut,å skjære,å skjære,skjærer,skjærer,skar,skjår,har skåret,har skjåret,50.0
+2021-01-29 11:49:23.341218,"stand, stand up",å stå,å stå,står,står,stod,sto,har stått,har stodd,50.0
+2021-01-29 11:52:23.761919,lay/put,å legge,å legge,legger,legger,la,la,har lagt,har lagt,100.0
+2021-01-29 11:52:37.746782,see,å se,å se,ser,ser,så,så,har sett,har satt,75.0
+2021-01-29 11:52:54.632932,cut,å skjære,å skjære,skjærer,skjærer,skar,skår,har skåret,har skaret,50.0
+2021-01-29 11:53:10.519054,"stand, stand up",å stå,å stå,står,står,stod,sto,har stått,har stodd,50.0
+2021-01-29 11:54:06.031159,see,å se,å se,ser,ser,så,så,har sett,har sått,75.0
+2021-01-29 11:54:23.091551,cut,å skjære,å skjære,skjærer,skjærer,skar,skar,har skåret,har skåret,100.0
+2021-01-29 11:54:36.761596,"stand, stand up",å stå,å stå,står,står,stod,stod,har stått,har stått,100.0
+2021-01-29 11:56:09.235025,see,å se,å se,ser,sder,så,så,har sett,har sett,75.0
+2021-01-29 11:56:25.903234,see,å se,å se,ser,ser,så,så,har sett,har sett,100.0
