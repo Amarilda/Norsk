@@ -1335,3 +1335,43 @@ Date,Verb,C1,Infinitive,C2,Present tense,C3,Past tense,C4,Past participle,Percen
 2021-01-29 11:54:36.761596,"stand, stand up",å stå,å stå,står,står,stod,stod,har stått,har stått,100.0
 2021-01-29 11:56:09.235025,see,å se,å se,ser,sder,så,så,har sett,har sett,75.0
 2021-01-29 11:56:25.903234,see,å se,å se,ser,ser,så,så,har sett,har sett,100.0
+2021-01-29 13:33:20.402265,"bear, carry",å bære,å bære,bærer,bærer,bar,bar,har båret,har båret,100.0
+2021-01-29 13:33:40.801738,ask,å be,å be,ber,ber,ba,bått,har bedt,har bått,50.0
+2021-01-29 13:34:06.432946,die,å dø,å do,dør,dør,døde,dødde,har dødd,har dødd,50.0
+2021-01-29 13:34:27.231987,go/travel,å dra,å dra,drar,drar,dro,drev,har dratt,har drovet,50.0
+2021-01-29 13:34:37.992782,prefer,å foretrekke,å foretrekke,foretrekker,foretrekker,foretrakk,foretrakk,har foretrukket,har foretrakk,75.0
+2021-01-29 13:35:01.877287,understand,å forstå,å forstå,forstår,forsto,forsto,forsto,har forstått,har forstev,50.0
+2021-01-29 13:35:26.141364,disappear,å forsvinne,å forsvinne,forsvinner,forsvinner,forsvant,forsvant,har forsvunnet,har forsvant,75.0
+2021-01-29 13:35:51.468956,give,å gi,å gi,gir,gir,gav,gikk,har gitt,har gikk,50.0
+2021-01-29 13:36:08.491999,do,å gjøre,å gjøre,gjør,gjør,gjorde,gjørt,har gjort,har gjørd,50.0
+2021-01-29 13:36:23.402915,have,å ha,å ha,har,har,hadde,hadde,har hatt,har hatt,100.0
+2021-01-29 13:36:37.476402,remember,å huske,å huske,husker,husker,husket,husket,har husket,har husket,100.0
+2021-01-29 13:36:50.569820,to throw,å kaste,å hente,kaster,kaster,kastet,kastet,har kastet,har kastet,75.0
+2021-01-29 13:37:14.160739,laugh,å le,å le,ler,ler,lo,lier,har ledd,har lier,50.0
+2021-01-29 13:37:23.800745,lie,å ligge,å ligge,ligger,ligger,lå,lå,har ligget,har latt,75.0
+2021-01-29 13:37:46.150636,to fix,å ordne,å passe,ordner,ordnet,ordnet,ordnet,har ordnet,har ordnet,50.0
+2021-01-29 13:38:15.198965,reach,å rekke,å rekke,rekker,rekker,rakte,rakt,har rakt,har rakt,75.0
+2021-01-29 13:38:27.564222,tidy,å rydde,å rydde,rydder,rydder,ryddet,ryddet,har ryddet,har ryddet,100.0
+2021-01-29 13:38:39.597871,send,å sende,å sende,sender,sender,sendte,sente,har sendt,har sendt,75.0
+2021-01-29 13:38:55.830837,understand,å skjønne,å forstår,skjønner,skjønner,skjønte,skjønne,har skjønt,har skjønt,50.0
+2021-01-29 13:39:20.890641,"hit, strike",å slå,å slå,slår,slår,slo,slo,har slått,slått,75.0
+2021-01-29 13:39:39.555193,"end, close",å slutte,å slutte,slutter,slutter,sluttet,sluttet,har sluttet,har sluttet,100.0
+2021-01-29 13:39:55.162698,ask,å spørre,å spørre,spør,spørrer,spurte,spurte,har spurt,har spurt,75.0
+2021-01-29 13:40:09.281504,steal,å stjele,å stjele,stjeler,stjeler,stjal,stjalt,har stjålet,har stjål,50.0
+2021-01-29 13:40:28.785854,stroke,å stryke,å stryke,stryker,stryker,strøk,strøke,har strøket,har strøket,75.0
+2021-01-29 13:40:45.758211,take,å ta,å ta,tar,tar,tok,tok,har tatt,har tatt,100.0
+2021-01-29 13:40:58.240847,know,å vite,å vite,vet,vis,visste,har visse,har visst,har visst,50.0
+2021-01-29 13:43:47.823425,die,å dø,å dø,dør,dør,døde,døde,har dødd,har død,75.0
+2021-01-29 13:44:01.449310,to fix,å ordne,å ordne,ordner,ordner,ordnet,ordnet,har ordnet,har ordnet,100.0
+2021-01-29 13:44:17.284691,reach,å rekke,å rekke,rekker,rekker,rakte,rakke,har rakt,har rakt,75.0
+2021-01-29 13:44:28.141529,send,å sende,å sende,sender,sender,sendte,sendte,har sendt,har sendt,100.0
+2021-01-29 13:44:41.781710,understand,å skjønne,å skjønne,skjønner,skjønner,skjønte,skjønte,har skjønt,har skjønt,100.0
+2021-01-29 13:44:59.676265,steal,å stjele,å stjele,stjeler,stjeler,stjal,stjal,har stjålet,har stjålet,100.0
+2021-01-29 13:46:09.983606,stroke,å stryke,å stryke,stryker,stryker,strøk,strok,har strøket,har strekett,50.0
+2021-01-29 13:47:53.599407,die,å dø,å dø,dør,dør,døde,døde,har dødd,har dødd,100.0
+2021-01-29 13:48:07.300365,reach,å rekke,å rekke,rekker,rekker,rakte,rakt,har rakt,har rakt,75.0
+2021-01-29 13:48:23.666864,stroke,å stryke,å stryke,stryker,stryker,strøk,strøke,har strøket,har streket,50.0
+2021-01-29 13:53:17.071129,reach,å rekke,å rekke,rekker,rekker,rakte,rakt,har rakt,har rakt,75.0
+2021-01-29 13:53:30.657862,stroke,å stryke,å stryke,stryker,stryker,strøk,strek,har strøket,har strøket,75.0
+2021-01-29 13:53:43.368368,reach,å rekke,å rekke,rekker,rekker,rakte,rakte,har rakt,har rakt,100.0
+2021-01-29 13:54:01.320787,stroke,å stryke,å stryke,stryker,stryker,strøk,strøk,har strøket,har strøket,100.0
