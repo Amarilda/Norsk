@@ -1375,3 +1375,37 @@ Date,Verb,C1,Infinitive,C2,Present tense,C3,Past tense,C4,Past participle,Percen
 2021-01-29 13:53:30.657862,stroke,å stryke,å stryke,stryker,stryker,strøk,strek,har strøket,har strøket,75.0
 2021-01-29 13:53:43.368368,reach,å rekke,å rekke,rekker,rekker,rakte,rakte,har rakt,har rakt,100.0
 2021-01-29 13:54:01.320787,stroke,å stryke,å stryke,stryker,stryker,strøk,strøk,har strøket,har strøket,100.0
+2021-01-29 14:02:25.646224,ask,å be,å be,ber,ber,ba,bier,har bedt,har batt,50.0
+2021-01-29 14:02:37.447917,go/travel,å dra,å dra,drar,drar,dro,drev,har dratt,har drevet,50.0
+2021-01-29 14:02:51.595386,prefer,å foretrekke,å foretrekke,foretrekker,foretrekkert,foretrakk,har foretrakke,har foretrukket,har foretrakket,25.0
+2021-01-29 14:03:15.691954,give,å gi,å gi,gir,gir,gav,gikk,har gitt,har gikk,50.0
+2021-01-29 14:03:28.563527,do,å gjøre,p gjøre,gjør,gjør,gjorde,gjørde,har gjort,har gjord,25.0
+2021-01-29 14:03:50.938060,to throw,å kaste,å kaste,kaster,kaster,kastet,kastet,har kastet,har kastet,100.0
+2021-01-29 14:04:04.114125,laugh,å le,å le,ler,ler,lo,lier,har ledd,har lie,50.0
+2021-01-29 14:04:10.464643,lie,å ligge,å ligge,ligger,ligger,lå,lagt,har ligget,har lågt,50.0
+2021-01-29 14:04:23.023898,"hit, strike",å slå,å slå,slår,slår,slo,slå,har slått,har slott,50.0
+2021-01-29 14:04:44.344715,ask,å spørre,å spørre,spør,spørrer@,spurte,spurte,har spurt,har spurt,75.0
+2021-01-29 14:05:02.202829,know,å vite,å vite,vet,vet,visste,har visste,har visst,har visst,75.0
+2021-01-29 14:05:20.658152,prefer,å foretrekke,å foretrekke,foretrekker,foretrekker,foretrakk,foretrakke,har foretrukket,har foretrakk,50.0
+2021-01-29 14:05:42.202739,do,å gjøre,å gjøre,gjør,gjør,gjorde,gjorde,har gjort,har gjort,100.0
+2021-01-29 14:06:38.885561,"hit, strike",å slå,å slå,slår,slår,slo,slott,har slått,har slott,50.0
+2021-01-29 14:09:11.775263,prefer,å foretrekke,å foretrekke,foretrekker,foretrekker,foretrakk,foretrakk,har foretrukket,har foretrukket,100.0
+2021-01-29 14:10:27.862766,"hit, strike",å slå,å slå,slår,slår,slo,slott,har slått,har slått,75.0
+2021-01-29 14:13:19.966136,"hit, strike",å slå,å slå,slår,slår,slo,slo,har slått,har sledd,75.0
+2021-01-29 14:14:19.555975,"hit, strike",å slå,å slå,slår,slår,slo,slo,har slått,har slatt,75.0
+2021-01-29 14:15:25.475232,"hit, strike",å slå,å slå,slår,slår,slo,slo,har slått,slåttt,75.0
+2021-01-29 14:15:36.194400,"hit, strike",å slå,å slå,slår,slår,slo,slo,har slått,slått,75.0
+2021-01-29 14:16:24.295594,"hit, strike",å slå,å slå,slår,slår,slo,slo,har slått,har slåttt,75.0
+2021-01-29 14:16:35.304104,"hit, strike",å slå,å slå,slår,slår,slo,slo,har slått,har slått,100.0
+2021-01-29 14:20:03.176059,go/travel,å dra,å dra,drar,drarr,dro,drev,har dratt,har drevet,25.0
+2021-01-29 14:20:16.982012,give,å gi,å gi,gir,gir,gav,gav,har gitt,har gavet,75.0
+2021-01-29 14:20:29.667885,laugh,å le,å le,ler,ler,lo,la,har ledd,har latt,50.0
+2021-01-29 14:21:10.448835,lie,å ligge,å ligge,ligger,ligger,lå,lagt,har ligget,har lagt,50.0
+2021-01-29 14:21:24.448511,know,å vite,å viter,vet,vet,visste,har visste,har visst,har visst,50.0
+2021-01-29 14:21:45.614331,go/travel,å dra,å dra,drar,drar,dro,drev,har dratt,har drev,50.0
+2021-01-29 14:21:58.483619,laugh,å le,å le,ler,ler,lo,lå,har ledd,har le,50.0
+2021-01-29 14:22:12.497710,go/travel,å dra,å dra,drar,drar,dro,drev,har dratt,har drovet,50.0
+2021-01-29 14:22:29.533142,laugh,å le,å le,ler,ler,lo,lo,har ledd,har ledd,100.0
+2021-01-29 14:24:08.959872,go/travel,å dra,drar,drar,dro,dro,dro,har dratt,har drovet,25.0
+2021-01-29 14:24:59.646511,know,å vite,å vite,vet,vet,visste,visste,har visst,har visst,100.0
+2021-01-29 14:26:13.311458,go/travel,å dra,å dra,drar,drar,dro,dro,har dratt,har dratt,100.0
