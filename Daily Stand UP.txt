@@ -7,8 +7,15 @@ May I dream of a dashboard? or battle of IG's first?
 
 ONE THING WHAT WOULD BRING THE GREATEST IMPROVEMENT:
 
+30/01/2021
+Lol, overdid a22.py yesterday so it is few today 
+Todays mission is 0 A2 verbs and 5 irregular verbs
+Your summary:
+100.0    3
+50.0     2
+
 29/01/2021
-Implemented AlmostThere
+Implemented AlmostThere/A22.py for now. While AlmostThere != 0 does not function fully.
 
 Todays mission is 11 A2 verbs and 30 irregular verbs
 Your summary:
