@@ -1,11 +1,21 @@
 GOALS:
 
 Add -et and Y to the verbbender.csv
+random word order
+remove cues for Irregular Joe
+remove ending cues for A2
+reflexive much?
 
 Finish Nils1 and Karense in January. 
 May I dream of a dashboard? or battle of IG's first?
 
 ONE THING WHAT WOULD BRING THE GREATEST IMPROVEMENT:
+Add loop for 
+"Todays mission is 0 A2 verbs and 0 irregular verbs"
+
+31/01/2021
+
+
 
 30/01/2021
 Lol, overdid a22.py yesterday so it is few today 
