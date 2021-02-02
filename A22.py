@@ -36,7 +36,6 @@ while len(AlmostThere) !=0:
     bins = []
  
     print()
-#print(f"Todays mission is {len(verbs[verbs['Ending'].notna()])} A2 verbs and {len(verbs.A2 == "Y")} irregular verbs")
     verbs = verbs[verbs.Infinitive.isin(AlmostThere)]
     print(f'Todays mission is {len(verbs[verbs.Ending.notna()])} A2 verbs and {len(verbs[verbs.A2 == "Y"])} irregular verbs')
     
