@@ -13,8 +13,8 @@ ONE THING WHAT WOULD BRING THE GREATEST IMPROVEMENT:
 Add loop for 
 "Todays mission is 0 A2 verbs and 0 irregular verbs"
 
-31/01/2021
-
+02/02/2021
+Figured out how to pass variables from function to function. Just now to need to figure out how to make them constant. Random day is not constant. 
 
 
 30/01/2021
