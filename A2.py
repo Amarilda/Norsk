@@ -21,13 +21,11 @@ def VerbBender():
             perfect10.append(i)
 
 #Filter out verbs for training
-    #verbs = verbs[(verbs[14].notna())| (verbs.A2 == "Y")].reset_index(drop = True)
     verbs = verbs[((verbs['Ending'].notna()) | (verbs.A2 == "Y")) & ~verbs['English'].isin(perfect10)].reset_index(drop = True)
     dv = 0
     bins = []
  
     print()
-#print(f"Todays mission is {len(verbs[verbs['Ending'].notna()])} A2 verbs and {len(verbs.A2 == "Y")} irregular verbs")
     print(f'Todays mission is {len(verbs[verbs.Ending.notna()])} A2 verbs and {len(verbs[verbs.A2 == "Y"])} irregular verbs')
     
     for num in range(0, len(verbs)):
@@ -77,5 +75,4 @@ def VerbBender():
     print("Your summary:")
     print(bins.bins.value_counts())
 
-# You think you have a free will? 
 VerbBender()
