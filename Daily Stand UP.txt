@@ -1,17 +1,24 @@
-GOALS:
-
-Add -et and Y to the verbbender.csv
+ONE THING WHAT WOULD BRING THE GREATEST IMPROVEMENT:
+add -et and Y to the verbbender.csv
 random word order
 remove cues for Irregular Joe
 remove ending cues for A2
 reflexive much?
 
+GOALS:
 Finish Nils1 and Karense in January. 
 May I dream of a dashboard? or battle of IG's first?
 
-ONE THING WHAT WOULD BRING THE GREATEST IMPROVEMENT:
-Add loop for 
-"Todays mission is 0 A2 verbs and 0 irregular verbs"
+03/02/2021
+Still signing with 2019. 
+A2 part worked fine in A222. A22 part need to be investigated. Strings of 2 is not an appropriate way to name the different versions of the code. 
+
+Todays mission is 4 A2 verbs and 13 irregular verbs
+Your summary:
+100.0    9
+50.0     5
+75.0     2
+25.0     1
 
 02/02/2021
 Figured out how to pass variables from function to function. Just now to need to figure out how to make them constant. Random day is not constant. 
