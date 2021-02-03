@@ -1528,3 +1528,19 @@ Date,Verb,C1,Infinitive,C2,Present tense,C3,Past tense,C4,Past participle,Percen
 2021-02-03 12:53:38.975734,be,å bli,å bli,blir,blir,ble,ble,har blitt,har blitt,100.0
 2021-02-03 12:53:54.211298,"live, reside",å bo,å bo,bor,bor,bodde,bodde,har bodd,har bodd,100.0
 2021-02-03 12:54:05.841796,jump,å hoppe,å hope,hopper,hopper,hoppet,hoppet,har hoppet,har hoppet,75.0
+2021-02-03 12:57:15.314366,jump,å hoppe,å hoppe,hopper,hopper,hoppet,hopte,har hoppet,har hoppet,75.0
+2021-02-03 12:57:30.002654,hear,å høre,å høre,hører,hører,hørte,hørte,har hørt,har hørt,100.0
+2021-02-03 12:57:44.038039,"know (person, place)",å kjenne,å kjenne,kjenner,kjenner,kjente,kjente,har kjent,har kjent,100.0
+2021-02-03 12:58:01.061615,purchase,å kjøpe,å kjøpe,kjøper,kjøper,kjøpte,kjøptet,har kjøpt,har kjøpt,75.0
+2021-02-03 12:58:16.580914,"cost, sweep",å koste,å koste,koster,koster,kostet,kostet,har kostet,har kostet,100.0
+2021-02-03 12:58:27.315248,play,å leke,å leke,leker,leker,lekte,lekte,har lekt,har lekt,100.0
+2021-02-03 12:58:38.171775,like,å like,å like,liker,liker,likte,likte,har likt,har likt,100.0
+2021-02-03 12:58:45.066937,listen,å lytte,å lytte,lytter,lytter,lyttet,lyttet,har lyttet,har lyttet,100.0
+2021-02-03 13:01:06.740968,jump,å hoppe,å hoppe,hopper,hopper,hoppet,hoppet,har hoppet,har hoppet,100.0
+2021-02-03 13:01:22.006090,purchase,å kjøpe,å kjøpe,kjøper,kjøpte,kjøpte,kjøpte,har kjøpt,har kjøpt,75.0
+2021-02-03 13:01:37.661877,"make, create",å lage,å lage,lager,lager,laget,lagte,har laget,har laget,75.0
+2021-02-03 13:02:43.490966,"bear, carry",å bære,å bære,bærer,bærer,bar,bar,har båret,har båret,100.0
+2021-02-03 13:03:03.974167,ask,å be,å bli,ber,ber,ba,bier,har bedt,bått,25.0
+2021-02-03 13:03:20.050803,die,å dø,å dø,dør,dør,døde,dødde,har dødd,har dødd,75.0
+2021-02-03 13:03:32.448421,go/travel,å dra,å dra,drar,drar,dro,drev,har dratt,har drev,50.0
+2021-02-03 13:03:43.512322,find,å finne,å finne,finner,finner,fant,finte,har funnet,har funtet,50.0
