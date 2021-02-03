@@ -1,17 +1,18 @@
 ONE THING WHAT WOULD BRING THE GREATEST IMPROVEMENT:
+while loop for AlmostThere
 add -et and Y to the verbbender.csv
 random word order
-remove cues for Irregular Joe
-remove ending cues for A2
-reflexive much?
 
 GOALS:
-Finish Nils1 and Karense in January. 
+Finish Nils1 and Karense in february 
+reflexive much?
 May I dream of a dashboard? or battle of IG's first?
 
 03/02/2021
 Still signing with 2019. 
 A2 part worked fine in A222. A22 part need to be investigated. Strings of 2 is not an appropriate way to name the different versions of the code. 
+*Removed cues for Irregular Joe/A2.*
+AlmostThere is increased to 5 distances. 
 
 Todays mission is 4 A2 verbs and 13 irregular verbs
 Your summary:
@@ -22,7 +23,6 @@ Your summary:
 
 02/02/2021
 Figured out how to pass variables from function to function. Just now to need to figure out how to make them constant. Random day is not constant. 
-
 
 30/01/2021
 Lol, overdid a22.py yesterday so it is few today 
@@ -126,7 +126,7 @@ Your summary:
 25.0     6
 
 17/01/2021
-Show hint only for the irregular verbs
+*Show hint only for the irregular verbs*
 
 Your summary:
 50.0     28
@@ -149,7 +149,7 @@ Installed SelfControl :D If only it would be so easy.
 pip install patience
 
 14/01/2021
-Adding irregular verbs in the mix,Ouch, those stats.
+*Adding irregular verbs in the mix,Ouch, those stats.*
 
 13/01/2021
 Data Professor
