@@ -1491,3 +1491,20 @@ Date,Verb,C1,Infinitive,C2,Present tense,C3,Past tense,C4,Past participle,Percen
 02/02/2021 00:27:12,die,å dø,å dø,dør,dør,døde,dødde,har dødd,har dødd,75.0
 02/02/2021 00:27:22,go/travel,å dra,å dra,drar,drar,dro,drak,har dratt,hardrak,50.0
 2021-02-02 17:38:48.039786,interrupt,å avbryte,å avbryte,avbryter,avbryter,avbrøt,avbrøt,har avbrutt,har avbrutt,100.0
+2021-02-03 11:32:38.860410,drink,å drikke,å drikke,drikker,drikker,drakk,drakk,har drukket,har drukket,100.0
+2021-02-03 11:33:27.574643,continue,å fortsette,å fortsette,fortsetter,fortsetter,fortsatte,fortsatte,har fortsatt,har forstsatt,75.0
+2021-02-03 11:33:42.958252,"go, walk",å gå,å gå,går,går,gikk,gikk,har gått,har gått,100.0
+2021-02-03 11:33:54.109744,help,å hjelpe,å hjelpe,hjelper,hjelper,hjalp,hjalp,har hjulpet,har hjulpet,100.0
+2021-02-03 11:34:07.132533,come,å komme,å komme,kommer,kommer,kom,kom,har kommet,har kommet,100.0
+2021-02-03 11:34:17.780780,exaggerate,å overdrive,å overdrive,overdriver,overdriver,overdrev,overdrev,har overdrevet,har overdrevet,100.0
+2021-02-03 11:34:37.092105,fit,å passe,å ordne,passer,passer,passet,passett,har passet,har passet,50.0
+2021-02-03 11:35:00.050759,"clean, polish",å pusse,å rydde,pusser,pusser,pusset,pusstete,har pusset,har pussett,25.0
+2021-02-03 11:35:20.033482,sell,å selge,å selge,selger,selger,solgte,solgt,har solgt,har solt,50.0
+2021-02-03 11:35:33.240821,set/put/place,å sette,å sette,setter,setter,satte,satte,har satt,har satt,100.0
+2021-02-03 11:35:44.056584,to scare,å skremme,å ride,skremmer,skremmer,skremte,skremtet,har skremt,har skremt,50.0
+2021-02-03 11:36:03.711659,sleep,å sove,å sove,sover,sover,sov,savt,har sovet,gar sovet,50.0
+2021-02-03 11:38:06.506894,count,å telle,å telle,teller,teller,talte,talt,har talt,har talt,75.0
+2021-02-03 11:38:16.856551,meet/hit,å treffe,å treffe,treffer,treffer,traff,traffe,har truffet,har traffet,50.0
+2021-02-03 11:38:27.607679,pull,å trekke,å trekke,trekker,trekker,trakk,trakk,har trukket,har trukket,100.0
+2021-02-03 11:38:45.599173,"wake, awaken",å våkne,å våkne,våkner,våkner,våknet,våknet,har våknet,har våknet,100.0
+2021-02-03 11:39:02.990012,"want to, will",å ville,å ville,vil,vil,ville,ville,har villet,har villet,100.0
