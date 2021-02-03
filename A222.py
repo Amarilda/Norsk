@@ -14,19 +14,24 @@ def filing():
 
 def AlmostThere():
     df, verbs,e = filing()
+
     today = pd.to_datetime('today').normalize()
-    df =df[(max(df.Percent) != 100) & (pd.to_datetime(df['Date']) > today)].reset_index(drop = True)
-    
+    df =df[(df['Date'] > today)].reset_index(drop = True)
+    print(f'{len(df)} Todays damage, you over archiever')
+    perfect10 =[]    
+    for i in df.Verb.unique():
+        if max(df.Percent[df.Verb == i]) == 100:
+            perfect10.append(i)
     AlmostThere = []
     for i in range(0,df.shape[0]-1):
         for j in [2,4,6,8]:
             distance = lev.distance(df.iloc[:, j][i],df.iloc[:, j+1][i])
             ratio = lev.ratio(df.iloc[:, j][i],df.iloc[:, j+1][i])
-            if distance ==1 and df.C1[i] not in AlmostThere:
+            if distance <=5 and df.C1[i] not in AlmostThere:
                 AlmostThere.append(df.C1[i])
-            if len(AlmostThere)== 0:
-                print("Increase your levenstein")
-    verbs =verbs[verbs.Infinitive.isin(AlmostThere)].reset_index(drop = True)
+    verbs =verbs[verbs.Infinitive.isin(AlmostThere)&~verbs['English'].isin(perfect10)].reset_index(drop = True)
+    if len(verbs) ==0:
+        print(f'Well done, there are no AlmostThere. Take a breather and step up the challenge!')
     return df, verbs
 
 def ThePerfect10():
@@ -49,7 +54,6 @@ def VerbBender(x):
     df, verbs = x()
     dv = 0
     bins = []
-    print(len(verbs))
     for num in range(0, len(verbs)):
 
         tenses = ['Infinitive','Present tense','Past tense','Past participle']
@@ -96,8 +100,9 @@ def VerbBender(x):
         dv +=1
     bins = pd.DataFrame(bins,columns=['bins'])
     print()
-    print("Your summary:")
-    print(bins.bins.value_counts())
+    if len(bins.bins) > 0:
+        print("Your summary:")
+        print(bins.bins.value_counts())
 
 def Norwegian():
     #VerbBender(VBB)
