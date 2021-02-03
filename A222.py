@@ -62,20 +62,12 @@ def VerbBender(x):
         print(f"{dv/len(verbs):.0%}")
 
         print(verbs['English'][num])
-        
-        if verbs['A2'][num] == "Y":
-            print('Irregular Joe')
-        else:
-            print(verbs['Ending'][num])
-        
+       
         counter = 0
         atbilde = []
         
         atbilde.append(datetime.datetime.now())
         atbilde.append(verbs['English'][num])
-        
-        if verbs['A2'][num] == "Y":
-            print(verbs['Infinitive'][num])
         
         for i in tenses:
             print(i)
@@ -105,7 +97,7 @@ def VerbBender(x):
         print(bins.bins.value_counts())
 
 def Norwegian():
-    #VerbBender(VBB)
+    VerbBender(VBB)
     VerbBender(AlmostThere)
 
 Norwegian()
