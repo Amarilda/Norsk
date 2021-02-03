@@ -8,13 +8,12 @@ def filing():
     verbs = pd.read_csv("verbs.csv")
     df = pd.read_csv("VerbBender.csv")
     df['Date'] = pd.to_datetime(df['Date'])
-    e = random.randint(1,9)
-    print(f'days {e}')
+    e = random.randint(4,9)
     df = df[df.Date > datetime.datetime.now() - datetime.timedelta(days=e)]
-    return df, verbs
+    return df, verbs,e
 
 def AlmostThere():
-    df, verbs = filing()
+    df, verbs,e = filing()
     today = pd.to_datetime('today').normalize()
     df =df[(max(df.Percent) != 100) & (pd.to_datetime(df['Date']) > today)].reset_index(drop = True)
     
@@ -39,9 +38,10 @@ def ThePerfect10():
     return perfect10
 
 def VBB():
-    df, verbs = filing()
+    df, verbs,e = filing()
     perfect10 =ThePerfect10()
     verbs = verbs[((verbs['Ending'].notna()) | (verbs.A2 == "Y")) & ~verbs['English'].isin(perfect10)].reset_index(drop = True)
+    print(f'days {e}')
     print(f'Todays mission is {len(verbs[verbs.Ending.notna()])} A2 verbs and {len(verbs[verbs.A2 == "Y"])} irregular verbs')
     return df, verbs
 
@@ -100,7 +100,7 @@ def VerbBender(x):
     print(bins.bins.value_counts())
 
 def Norwegian():
-    VerbBender(VBB)
+    #VerbBender(VBB)
     VerbBender(AlmostThere)
 
 Norwegian()
