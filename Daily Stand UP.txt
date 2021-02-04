@@ -1,4 +1,4 @@
-ONE THING WHAT WOULD BRING THE GREATEST IMPROVEMENT:
+å ONE THING WHAT WOULD BRING THE GREATEST IMPROVEMENT:
 while loop for AlmostThere
 add -et and Y to the verbbender.csv
 random word order
@@ -7,6 +7,13 @@ GOALS:
 Finish Nils1 and Karense in february 
 reflexive much?
 May I dream of a dashboard? or battle of IG's first?
+
+04/02/2021
+Your summary:
+100.0    17
+75.0      7
+50.0      4
+25.0      1
 
 03/02/2021
 Still signing with 2019. 
