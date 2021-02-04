@@ -1544,3 +1544,65 @@ Date,Verb,C1,Infinitive,C2,Present tense,C3,Past tense,C4,Past participle,Percen
 2021-02-03 13:03:20.050803,die,å dø,å dø,dør,dør,døde,dødde,har dødd,har dødd,75.0
 2021-02-03 13:03:32.448421,go/travel,å dra,å dra,drar,drar,dro,drev,har dratt,har drev,50.0
 2021-02-03 13:03:43.512322,find,å finne,å finne,finner,finner,fant,finte,har funnet,har funtet,50.0
+2021-02-04 10:49:04.809691,purchase,å kjøpe,å betale,kjøper,kjøper,kjøpte,kjøpte,har kjøpt,har kjøpt,75.0
+2021-02-04 10:49:27.524375,"try, attempt",å prøve,å c,prøver,prøver,prøvde,prøvde,har prøvd,har prøvd,75.0
+2021-02-04 10:49:54.796570,to breathe,å puste,å pusse,puster,puster,pustet,pustet,har pustet,har pustet,75.0
+2021-02-04 10:53:36.757349,look forward,å glede,å glede,gleder,gleder,gledet,gledet,har gledet,har gledet,100.0
+2021-02-04 10:53:49.764355,cough,å hoste,å hoste,hoster,hostet,hostet,hostet,har hostet,har hostet,75.0
+2021-02-04 10:54:03.612365,purchase,å kjøpe,å kjøpe,kjøper,kjøper,kjøpte,kjøpte,har kjøpt,har kjøpt,100.0
+2021-02-04 10:54:15.747793,"make, create",å lage,å lage,lager,lager,laget,lagte,har laget,har laget,75.0
+2021-02-04 10:55:10.293963,must/have to ,å måtte,å måtte,må,må,måtte,måtte,har måttet,har måttet,100.0
+2021-02-04 10:55:21.063608,"try, attempt",å prøve,å prøve,prøver,prøver,prøvde,prøvde,har prøvd,har prøvd,100.0
+2021-02-04 10:55:35.622508,to breathe,å puste,å puste,puster,puster,pustet,pustet,har pustet,har pustet,100.0
+2021-02-04 10:56:19.320083,ring,å ringe,å ringe,ringer,ringer,ringte,ringte,har ringt,har ringt,100.0
+2021-02-04 10:56:28.287117,"call, shout",å rope,å rope,roper,roper,ropte,ropte,har ropt,har ropt,100.0
+2021-02-04 10:56:39.327329,write,å skrive,å skrive,skriver,skriver,skrev,skrivte,har skrevet,har skrevet,75.0
+2021-02-04 10:56:52.759891,"should, shall",å skulle,å skulle,skal,skal,skulle,skulle,har skullet,har skullet,100.0
+2021-02-04 10:58:38.919998,to realx,å slappe,å slappe,slapper,slapper,slappet,slappet,har slappet,har sluppet,75.0
+2021-02-04 10:58:53.278944,smile,å smile,å smile,smiler,smiler,smilte,smilte,har smilt,har smilt,100.0
+2021-02-04 10:59:04.695145,sneak,å snike,å s[3~,sniker,sniker,snek,snikte,har sneket,har snke,25.0
+2021-02-04 10:59:18.870512,snow,å snø,å sno,snør,snør,snødde,snødd,har snødd,har snødd,50.0
+2021-02-04 10:59:32.591424,eat,å spise,å spise,spiser,spiser,spiste,spiste,har spist,har spist,100.0
+2021-02-04 10:59:43.592093,"roast, fry, bake",å steke,å steke,steker,szteker,stekte,stekte,har stekt,har stekt,75.0
+2021-02-04 11:04:27.359361,"vote, agree",å stemme,å stemme,stemmer,stemmer,stemte,stemte,har stemt,har stemt,100.0
+2021-02-04 11:04:45.968773,study,å studere,å studere,studerer,studerer,studerte,studerte,har studert,har studert,100.0
+2021-02-04 11:04:57.480496,"answer, reply",å svare,å svare,svarer,svarer,svarte,svarte,har svart,har svart,100.0
+2021-02-04 11:05:08.336618,"think, intend",å tenke,å tenke,tenker,tenker,tenkte,tenkte,har tenkt,har tenkt,100.0
+2021-02-04 11:05:18.744553,need,å trenge,å trenge,trenger,trenger,trengte,trengte,har trengt,har trengt,100.0
+2021-02-04 11:05:28.495835,believe,å tro,å tro,tror,tror,trodde,trodde,har trodd,har trodd,100.0
+2021-02-04 11:05:39.401099,to print,å trykke,å stykke,trykker,trykker,trykket,trykte,har trykket,har trykket,50.0
+2021-02-04 11:05:57.816681,to joke ,å tulle,å tullle,tuller,tuller,tullet,tulte,har tullet,har tullet,50.0
+2021-02-04 11:06:09.704330,"be, exist",å være,å være,er,er,var,var ,har vært,har våret,50.0
+2021-02-04 11:06:23.928602,wash,å vaske,å vaske,vasker,vasker,vasket,vaskte,har vasket,har vasket,75.0
+2021-02-04 11:06:38.488196,"wait, expect",å vente,å vente,venter,venter,ventet,ventet,har ventet,har ventet,100.0
+2021-02-04 11:06:46.585054,show,å vise,å vise,viser,viser,viste,visste,har vist,har vist,75.0
+2021-02-04 11:07:01.735654,interrupt,å avbryte,å avbryt,avbryter,avbryter,avbrøt,avbrøt,har avbrutt,har avbrøt,50.0
+2021-02-04 11:07:53.823417,cough,å hoste,å hoste,hoster,hoster,hostet,hostet,har hostet,har hostet,100.0
+2021-02-04 11:08:05.063900,"make, create",å lage,å lage,lager,lager,laget,lagte,har laget,har laget,75.0
+2021-02-04 11:08:14.216598,write,å skrive,å skrive,skriver,skriver,skrev,skrev,har skrevet,har skrevet,100.0
+2021-02-04 11:08:27.720653,to realx,å slappe,å slappe,slapper,slapper,slappet,slapte,har slappet,har sluppet,50.0
+2021-02-04 11:08:41.321561,sneak,å snike,å skjemme,sniker,sniker,snek,snek,har sneket,har sneket,75.0
+2021-02-04 11:08:53.080472,snow,å snø,å snø,snør,snør,snødde,snødde,har snødd,har snødd,100.0
+2021-02-04 11:09:04.863806,"roast, fry, bake",å steke,å stele,steker,steker,stekte,steket,har stekt,har stekt,50.0
+2021-02-04 11:09:16.864236,to print,å trykke,å trykke,trykker,trykker,trykket,trykket,har trykket,har trykket,100.0
+2021-02-04 11:09:31.664781,to joke ,å tulle,å tulle,tuller,tuller,tullet,tullet,har tullet,har tuller,75.0
+2021-02-04 11:09:43.945700,"be, exist",å være,å være,er,er,var,var,har vært,har vært,100.0
+2021-02-04 11:09:55.937459,wash,å vaske,å vaske,vasker,vasker,vasket,vasket,har vasket,har vasket,100.0
+2021-02-04 11:11:41.917140,interrupt,å avbryte,å avbryte,avbryter,avbryter,avbrøt,avbrøt,har avbrutt,har avbrøt,75.0
+2021-02-04 11:12:01.164172,"make, create",å lage,å lage,lager,lager,laget,laget,har laget,har laget,100.0
+2021-02-04 11:12:11.186829,to realx,å slappe,å slappe,slapper,slapper,slappet,slappet,har slappet,har sluppet,75.0
+2021-02-04 11:12:22.315452,sneak,å snike,å snike,sniker,sniker,snek,snikte,har sneket,har sniket,50.0
+2021-02-04 11:12:35.442206,"roast, fry, bake",å steke,å steke,steker,steker,stekte,stekte,har stekt,har stekt,100.0
+2021-02-04 11:12:47.233663,to joke ,å tulle,å tulle,tuller,tuller,tullet,tullet,har tullet,har tullet,100.0
+2021-02-04 11:12:57.831800,show,å vise,å snø,viser,viser,viste,viste,har vist,har vist,75.0
+2021-02-04 11:13:27.159882,interrupt,å avbryte,å avbryte,avbryter,avbryter,avbrøt,avbrøt,har avbrutt,har avbruttet,75.0
+2021-02-04 11:13:41.802565,to realx,å slappe,å slappe,slapper,slapper,slappet,slappet,har slappet,har slappet,100.0
+2021-02-04 11:13:53.032266,sneak,å snike,å snike,sniker,sniker,snek,snek,har sneket,har sniket,75.0
+2021-02-04 11:14:02.856641,show,å vise,å vise,viser,viser,viste,vis,har vist,har vist,75.0
+2021-02-04 11:14:23.051611,interrupt,å avbryte,å avbryte,avbryter,abryter,avbrøt,avbrøt,har avbrutt,har avbrutt,75.0
+2021-02-04 11:14:53.725264,sneak,å snike,å snike,sniker,sniker,snek,snke,har sneket,sneket,50.0
+2021-02-04 11:15:04.749871,show,å vise,vise,viser,viser,viste,viste,har vist,har vist,75.0
+2021-02-04 11:15:45.395250,interrupt,å avbryte,å avbryte,avbryter,avbryter,avbrøt,avbrøt,har avbrutt,har avbrutt,100.0
+2021-02-04 11:16:05.409598,sneak,å snike,å snike,sniker,sniker,snek,snke,har sneket,har snekett,50.0
+2021-02-04 11:16:16.706492,show,å vise,å vise,viser,viser,viste,viste,har vist,har vist,100.0
+2021-02-04 11:16:39.486695,sneak,å snike,å snike,sniker,sniker,snek,snek,har sneket,har sneket,100.0
