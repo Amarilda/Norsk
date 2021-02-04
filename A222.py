@@ -97,7 +97,7 @@ def VerbBender(x):
         print(bins.bins.value_counts())
 
 def Norwegian():
-    VerbBender(VBB)
+    #VerbBender(VBB)
     VerbBender(AlmostThere)
 
 Norwegian()
