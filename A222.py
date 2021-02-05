@@ -3,10 +3,16 @@ import Levenshtein as lev
 import datetime as datetime
 import datetime
 import random
+import sqlite3
+from numpy import nan
 
 def filing():
+    connection = sqlite3.connect("norsk.db")
+    cursor = connection.cursor()
     verbs = pd.read_csv("verbs.csv")
     df = pd.read_csv("VerbBender.csv")
+    df = df[['Date', 'Verb', 'C1', 'Infinitive', 'C2', 'PresentTense', 'C3',
+       'PastTense', 'C4', 'PastParticiple', 'Ending', 'Irregular', 'Percent']]
     df['Date'] = pd.to_datetime(df['Date'])
     e = random.randint(4,9)
     df = df[df.Date > datetime.datetime.now() - datetime.timedelta(days=e)]
@@ -29,6 +35,7 @@ def AlmostThere():
             ratio = lev.ratio(df.iloc[:, j][i],df.iloc[:, j+1][i])
             if distance <=5 and df.C1[i] not in AlmostThere:
                 AlmostThere.append(df.C1[i])
+    print(f'{len(AlmostThere)} almost there')
     verbs =verbs[verbs.Infinitive.isin(AlmostThere)&~verbs['English'].isin(perfect10)].reset_index(drop = True)
     if len(verbs) ==0:
         print(f'Well done, there are no AlmostThere. Take a breather and step up the challenge!')
@@ -45,9 +52,9 @@ def ThePerfect10():
 def VBB():
     df, verbs,e = filing()
     perfect10 =ThePerfect10()
-    verbs = verbs[((verbs['Ending'].notna()) | (verbs.A2 == "Y")) & ~verbs['English'].isin(perfect10)].reset_index(drop = True)
+    verbs = verbs[((verbs['Ending'].notna()) | (verbs.Irregular == "Y")) & ~verbs['English'].isin(perfect10)].reset_index(drop = True)
     print(f'days {e}')
-    print(f'Todays mission is {len(verbs[verbs.Ending.notna()])} A2 verbs and {len(verbs[verbs.A2 == "Y"])} irregular verbs')
+    print(f'Todays mission is {len(verbs[verbs.Ending.notna()])} A2 verbs and {len(verbs[verbs.Irregular == "Y"])} irregular verbs')
     return df, verbs
 
 def VerbBender(x):
@@ -62,7 +69,7 @@ def VerbBender(x):
         print(f"{dv/len(verbs):.0%}")
 
         print(verbs['English'][num])
-       
+        
         counter = 0
         atbilde = []
         
@@ -80,13 +87,36 @@ def VerbBender(x):
                 print(verbs[i][num])
                 counter+= 1
         print(f"You got {(1 - counter/4):.2%}  correct")
+        atbilde.append(verbs['Ending'][num])
+        atbilde.append(verbs.Irregular [num])
 
         atbilde.append((1 - counter/4)*100)
+        print(atbilde)
 
-        df2 = pd.read_csv("VerbBender.csv")
-        df2.loc[len(df2)] = atbilde 
-        df2.to_csv("VerbBender.csv", index = False) 
+        #df2 = pd.read_csv("VerbBender.csv")
+        #df2.loc[len(df2)] = atbilde 
+        #df2.to_csv("VerbBender.csv", index = False) 
+        '''pd.DataFrame(atbilde, columns = [['Date', 'Verb', 'C1', 'Infinitive', 'C2', 'PresentTense', 'C3',
+       'PastTense', 'C4', 'PastParticiple', 'Ending', 'Irregular', 'Percent']])
+        
+        conn = sqlite3.connect('norsk.db')
+        query = "SELECT * FROM verbbender;"
 
+        df2 = pd.read_sql_query(query,conn)
+        df2.loc[len(df2)] = atbilde
+        df2.to_sql('VerbBender', connection, if_exists='append', index=False)'''
+        
+        
+        conn = sqlite3.connect('norsk.db')
+        print('Connected to database successfully.')
+
+        cur = conn.cursor()
+        cur.execute("insert into VerbBender(Date, 'Verb', 'C1', 'Infinitive', 'C2', 'PresentTense', 'C3','PastTense', 'C4', 'PastParticiple', 'Ending', 'Irregular', 'Percent') values(?, ?, ?, ?,?, ?, ?, ?,?, ?, ?, ?,?)", atbilde)
+        print('Records inserted successfully.')
+
+        conn.commit()
+        conn.close()
+        
         bins.append((1 - counter/4)*100)
 
         dv +=1
@@ -97,7 +127,7 @@ def VerbBender(x):
         print(bins.bins.value_counts())
 
 def Norwegian():
-    #VerbBender(VBB)
+    VerbBender(VBB)
     VerbBender(AlmostThere)
 
 Norwegian()
