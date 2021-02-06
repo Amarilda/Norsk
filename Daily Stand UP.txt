@@ -8,8 +8,15 @@ reflexive much?
 May I dream of a dashboard? or battle of IG's first?
 
 06/02/2021
-Todays mission is 64 A2 verbs and 54 irregular verbs
+Created verbbender percent column as a text. Very careless. 
 
+Todays mission is 64 A2 verbs and 54 irregular verbs
+Your summary:
+100.0    48
+75.0     40
+50.0     18
+25.0     10
+0.0       1
 
 05/02/2021
 I got DB!
