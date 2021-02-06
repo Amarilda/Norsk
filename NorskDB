@@ -20,7 +20,7 @@ cursor.execute('''CREATE TABLE VerbBender (
                 ,PastParticiple TEXT
                 ,Ending TEXT
                 ,Irregular TEXT
-                ,Percent TEXT)''')
+                ,Percent INT)''')
 
 df = pd.read_csv("Verbs.csv")
 
@@ -53,6 +53,9 @@ query = "SELECT * FROM verbbender;"
 
 df = pd.read_sql_query(query,conn)
 df['Date'] = pd.to_datetime(df['Date'])
+
+
+df.to_sql("VerbBender", conn, if_exists='append', index = False)
 
 connection.commit()
 connection.close()
