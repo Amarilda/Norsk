@@ -1,0 +1,60 @@
+import sqlite3
+import pandas as pd
+connection = sqlite3.connect("norsk.db")
+
+cursor = connection.cursor()
+
+#cursor.executescript("DROP TABLE IF EXISTS VerbBender")
+
+cursor = connection.cursor()
+cursor.execute('''CREATE TABLE VerbBender (
+                Date datetime
+                ,Verb TEXT
+                ,C1 TEXT
+                ,Infinitive TEXT
+                ,C2 TEXT
+                ,PresentTense TEXT
+                ,C3 TEXT
+                ,PastTense TEXT
+                ,C4 TEXT
+                ,PastParticiple TEXT
+                ,Ending TEXT
+                ,Irregular TEXT
+                ,Percent TEXT)''')
+
+
+df = pd.read_csv("Verbs.csv")
+
+for i in df.columns:
+    print(","+i+ " TEXT")
+
+cursor.execute('''CREATE TABLE verbs (
+                English TEXT
+                ,Infinitive TEXT
+                ,PresentTense TEXT
+                ,PastTense TEXT
+                ,PastParticiple TEXT
+                ,Ending TEXT
+                ,Irregular TEXT)''')
+
+
+def tables_in_sqlite_db(conn):
+    cursor = conn.execute("SELECT name FROM sqlite_master WHERE type='table';")
+    tables = [
+        v[0] for v in cursor.fetchall()
+        if v[0] != "sqlite_sequence"
+    ]
+    cursor.close()
+    return tables
+
+tables = tables_in_sqlite_db(connection)
+print(tables)
+
+conn = sqlite3.connect('norsk.db')
+query = "SELECT * FROM verbbender;"
+
+df = pd.read_sql_query(query,conn)
+df['Date'] = pd.to_datetime(df['Date'])
+
+connection.commit()
+connection.close()
