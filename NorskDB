@@ -22,7 +22,6 @@ cursor.execute('''CREATE TABLE VerbBender (
                 ,Irregular TEXT
                 ,Percent TEXT)''')
 
-
 df = pd.read_csv("Verbs.csv")
 
 for i in df.columns:
@@ -36,7 +35,6 @@ cursor.execute('''CREATE TABLE verbs (
                 ,PastParticiple TEXT
                 ,Ending TEXT
                 ,Irregular TEXT)''')
-
 
 def tables_in_sqlite_db(conn):
     cursor = conn.execute("SELECT name FROM sqlite_master WHERE type='table';")
