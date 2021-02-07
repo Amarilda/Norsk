@@ -1,11 +1,12 @@
 ONE THING WHAT WOULD BRING THE GREATEST IMPROVEMENT:
-while loop for AlmostThere
-random word order
 
 GOALS:
 Finish Nils1 and Karense in february 
 reflexive much?
 May I dream of a dashboard? or battle of IG's first?
+
+07/01/2021
+Implemented while loop for AlmostThere and random word order.
 
 06/02/2021
 Created verbbender percent column as a text. Very careless. 
