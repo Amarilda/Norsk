@@ -36,17 +36,17 @@ def VBB():
 df, verbs = VBB()
 number = len(verbs)
 
-while number > 1:   
+while number > 0:   
     print(number)
-    dv = 0
+    
     bins = []
 
-    num = random.randint(0, number)
+    num = random.randint(0, number-1)
     print(f'this is random number {num}')
 
     tenses = ['Infinitive','PresentTense','PastTense','PastParticiple']
     print()
-    print(f"{dv/len(verbs):.0%}")
+    print(f"{1/len(verbs):.0%}")
     print(verbs['English'][num])
 
     counter = 0
@@ -67,7 +67,6 @@ while number > 1:
     atbilde.append(verbs['Ending'][num])
     atbilde.append(verbs.Irregular [num])
     atbilde.append((1 - counter/4)*100)
-    print(atbilde)
     conn = sqlite3.connect('norsk.db')
     cur = conn.cursor()
     cur.execute("insert into VerbBender(Date, 'Verb', 'C1', 'Infinitive', 'C2', 'PresentTense', 'C3','PastTense', 'C4', 'PastParticiple', 'Ending', 'Irregular', 'Percent') values(?, ?, ?, ?,?, ?, ?, ?,?, ?, ?, ?,?)", atbilde)
@@ -78,5 +77,3 @@ while number > 1:
     if ((1 - counter/4)*100) == 100.0:
         verbs = verbs.drop(num).reset_index(drop = True)
         number -= 1
-
-    dv +=1
