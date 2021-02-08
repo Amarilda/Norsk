@@ -5,6 +5,11 @@ Finish Nils1 and Karense in february
 reflexive much?
 May I dream of a dashboard? or battle of IG's first?
 
+08/02/2021
+Random day is not used as db started fresh.
+Todays mission is 9 A2 verbs and 26 irregular verbs
+Went through all of them
+
 07/01/2021
 Implemented while loop for AlmostThere and random word order.
 
