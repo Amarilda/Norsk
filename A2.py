@@ -13,7 +13,7 @@ def filing():
     query2 = "SELECT * FROM verbbender;"
     df = pd.read_sql_query(query2,conn)
     df['Date'] = pd.to_datetime(df['Date'])
-    e = random.randint(4,9)
+    e = random.randint(1,9)
     df = df[df.Date > datetime.datetime.now() - datetime.timedelta(days=e)]
     return df, verbs,e
 
