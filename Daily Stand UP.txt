@@ -1,9 +1,26 @@
 ONE THING WHAT WOULD BRING THE GREATEST IMPROVEMENT:
+Language Cafe
 
 GOALS:
 Finish Nils1 and Karense in february 
 reflexive much?
 May I dream of a dashboard? or battle of IG's first?
+
+- extract text
+- simplify Get a list of the url for the individual advertisement
+- try for multiple commercials
+- make folder and download pictures
+
+
+14/02/2021
+Continued to make Jurmala script.
++ Extracted information from the tables (to be tested if all advertisements have the same fields)
++ Found all hrefs for the pictures
+
+13/02/2021
+Restrted making Jurmala tu esi mana Jurmala.
+Inspired by mechanicalsoup tutorial, however, mechanical soup was not useful. Would solve my Babbel quest. 
++ List of url for the individual advertisement
 
 12/02/2021
 lets add some challenge, how far I can go with 10 mistakes.
