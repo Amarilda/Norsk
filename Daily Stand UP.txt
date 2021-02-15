@@ -7,10 +7,13 @@ reflexive much?
 May I dream of a dashboard? or battle of IG's first?
 
 - extract text
-- simplify Get a list of the url for the individual advertisement
-- try for multiple commercials
 - make folder and download pictures
+- append new commercials
 
+15/02/2021
++ simplify Get a list of the url for the individual advertisement
++ loop works for all commercials in the list
++ export to csv
 
 14/02/2021
 Continued to make Jurmala script.
