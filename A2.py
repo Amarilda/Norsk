@@ -85,5 +85,12 @@ while number > 0 and chance > 0:
         print()
 
 print("Your summary:")
-print(bins.bins.value_counts())
+conn = sqlite3.connect('norsk.db')
+query2 = "SELECT * FROM verbbender ;"
+df = pd.read_sql_query(query2,conn)
+df['Date'] = pd.to_datetime(df['Date'])
+
+today = pd.to_datetime('today').normalize()
+df =df[(df['Date'] > today)].reset_index(drop = True)
+print(df.Percent.value_counts())
         
