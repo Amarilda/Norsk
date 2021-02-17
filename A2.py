@@ -36,11 +36,12 @@ def VBB():
 df, verbs = VBB()
 number = len(verbs)
 chance = 10
+bins = []
 
 while number > 0 and chance > 0:   
     print(number)
     
-    bins = []
+    
 
     num = random.randint(0, number-1)
     #print(f'this is random number {num}')
@@ -82,4 +83,7 @@ while number > 0 and chance > 0:
         chance-=1
         print(f'You have {chance} tries left')
         print()
+
+print("Your summary:")
+print(bins.bins.value_counts())
         
