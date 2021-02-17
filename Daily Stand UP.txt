@@ -10,6 +10,10 @@ May I dream of a dashboard? or battle of IG's first?
 - make folder and download pictures
 - append new commercials
 
+17/02/2021
+93-88
+
+
 15/02/2021
 + simplify Get a list of the url for the individual advertisement
 + loop works for all commercials in the list
