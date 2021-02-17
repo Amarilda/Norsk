@@ -11,8 +11,13 @@ May I dream of a dashboard? or battle of IG's first?
 - append new commercials
 
 17/02/2021
-93-88
 
+Your summary:
+75     23
+100    18
+50      4
+25      2
+0       1
 
 15/02/2021
 + simplify Get a list of the url for the individual advertisement
