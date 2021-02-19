@@ -8,7 +8,7 @@ from numpy import nan
 
 def filing():
     conn = sqlite3.connect('norsk.db')
-    query = "SELECT * FROM verbs;"
+    query = "SELECT * FROM verbs where Ending is not null or Irregular = 'Y';"
     verbs = pd.read_sql_query(query,conn)
     query2 = "SELECT * FROM verbbender;"
     df = pd.read_sql_query(query2,conn)
@@ -28,7 +28,8 @@ def ThePerfect10():
 def VBB():
     df, verbs,e = filing()
     perfect10 =ThePerfect10()
-    verbs = verbs[((verbs['Ending'].notna()) | (verbs.Irregular == "Y")) & ~verbs['English'].isin(perfect10)].reset_index(drop = True)
+    #verbs = verbs[((verbs['Ending'].notna()) | (verbs.Irregular == "Y")) & ~verbs['English'].isin(perfect10)].reset_index(drop = True)
+     verbs = verbs[~verbs['English'].isin(perfect10)].reset_index(drop = True)
     #print(f'days {e}')
     print(f'Todays mission is {len(verbs[verbs.Ending.notna()])} A2 verbs and {len(verbs[verbs.Irregular == "Y"])} irregular verbs')
     return df, verbs
