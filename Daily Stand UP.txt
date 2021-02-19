@@ -11,11 +11,16 @@ May I dream of a dashboard? or battle of IG's first?
 - append new commercials
 
 19/02/2021
++ Added verb filtering clause to SQL
++ Amended English translation, so each verb would have its own unique meaning. 
+
+Things I do not appreciate about Python - case sensitivity and indentation. 
+
 Your summary:
-75     8
-100    5
-0      1
-50     1
+100    31
+75     22
+50      7
+0       1
 
 17/02/2021
 
