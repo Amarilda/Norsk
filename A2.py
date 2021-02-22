@@ -94,4 +94,5 @@ df['Date'] = pd.to_datetime(df['Date'])
 today = pd.to_datetime('today').normalize()
 df =df[(df['Date'] > today)].reset_index(drop = True)
 print(df.Percent.value_counts())
+print(f'Todays precision is: {len(df[df.Percent== 100.0])/len(df):.0%}')
         
