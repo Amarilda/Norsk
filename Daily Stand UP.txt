@@ -1,14 +1,22 @@
 ONE THING WHAT WOULD BRING THE GREATEST IMPROVEMENT:
-Language Cafe
+say, tell - the most common word used, need to isolate and get it right.
 
 GOALS:
-Finish Nils1 and Karense in february 
+Finish Nils1 and Karense in February 
 reflexive much?
 May I dream of a dashboard? or battle of IG's first?
 
 - extract text
 - make folder and download pictures
 - append new commercials
+
+22/02/2021
++ Added precision
+Your summary:
+100    16
+75     11
+50      5
+25      4
 
 21/02/2021
 Your summary:
