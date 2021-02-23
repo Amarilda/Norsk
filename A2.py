@@ -84,8 +84,7 @@ while number > 0 and chance > 0:
         chance-=1
         print(f'You have {chance} tries left')
         print()
-
-print("Your summary:")
+        
 conn = sqlite3.connect('norsk.db')
 query2 = "SELECT * FROM verbbender ;"
 df = pd.read_sql_query(query2,conn)
@@ -93,6 +92,8 @@ df['Date'] = pd.to_datetime(df['Date'])
 
 today = pd.to_datetime('today').normalize()
 df =df[(df['Date'] > today)].reset_index(drop = True)
-print(df.Percent.value_counts())
 print(f'Todays precision is: {len(df[df.Percent== 100.0])/len(df):.0%}')
+print("Your summary:")
+print(df.Percent.value_counts())
+
         
