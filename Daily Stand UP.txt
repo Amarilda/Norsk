@@ -2,15 +2,21 @@ ONE THING WHAT WOULD BRING THE GREATEST IMPROVEMENT:
 say, tell - the most common word used, need to isolate and get it right.
 
 GOALS:
-Finish Nils1 and Karense in February 
-reflexive much?
-May I dream of a dashboard? or battle of IG's first?
+if __name__ == '__main__':
+    A2()
+
+The battle of IG's 
+dashboard
 
 - extract text
 - make folder and download pictures
 - append new commercials
 
+24/02/2021
+
 23/02/2021
++ Started to make a hangman
++ Bought the future autoring
 Todays precision is: 46%
 Your summary:
 100    33
