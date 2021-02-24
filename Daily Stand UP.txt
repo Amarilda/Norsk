@@ -20,6 +20,7 @@ Your summary:
 50      3
 
 23/02/2021
++ from norsk import norsk
 + Started to make a hangman
 + Bought the future autoring
 Todays precision is: 46%
