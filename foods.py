@@ -1,0 +1,1 @@
+foods = ['chocolate', 'steak', 'avocado', 'koffee']
