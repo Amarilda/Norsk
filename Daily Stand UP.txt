@@ -12,6 +12,15 @@ dashboard
 - make folder and download pictures
 - append new commercials
 
+27/02/2021
++ Todays date is printed on the top of the summary. Do I even have a right to call myself lazy, if I write date manually?
+Todays precision is: 59%
+Your summary:
+100    29
+75     14
+50      5
+25      1
+
 26/02/2021
 Todays precision is: 61%
 Your summary:
