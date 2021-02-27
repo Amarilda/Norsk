@@ -41,15 +41,9 @@ bins = []
 
 while number > 0 and chance > 0:   
     print(number)
-    
-    
-
     num = random.randint(0, number-1)
-    #print(f'this is random number {num}')
-
     tenses = ['Infinitive','PresentTense','PastTense','PastParticiple']
     print()
-    #print(f"{1/len(verbs):.0%}")
     print(verbs['English'][num])
 
     counter = 0
@@ -92,6 +86,7 @@ df['Date'] = pd.to_datetime(df['Date'])
 
 today = pd.to_datetime('today').normalize()
 df =df[(df['Date'] > today)].reset_index(drop = True)
+print(f'{today:%d/%m/%Y}')
 print(f'Todays precision is: {len(df[df.Percent== 100.0])/len(df):.0%}')
 print("Your summary:")
 print(df.Percent.value_counts())
