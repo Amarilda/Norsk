@@ -1,5 +1,6 @@
 ONE THING WHAT WOULD BRING THE GREATEST IMPROVEMENT:
 say, tell - the most common word used, need to isolate and get it right.
+bli vs være
 
 GOALS:
 if __name__ == '__main__':
@@ -11,6 +12,14 @@ dashboard
 - extract text
 - make folder and download pictures
 - append new commercials
+
+28/02/2021
+Todays precision is: 59%
+Your summary:
+100    16
+50      6
+75      4
+25      1
 
 27/02/2021
 + Todays date is printed on the top of the summary. Do I even have a right to call myself lazy, if I write date manually?
