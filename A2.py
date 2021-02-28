@@ -60,7 +60,7 @@ while number > 0 and chance > 0:
         if verbs[i][num] != answer:
             print(verbs[i][num])
             counter+= 1   
-    print(f"You got {(1 - counter/4):.2%}  correct")
+    print(f"__________________________{(1 - counter/4):.2%}__________________________")
     atbilde.append(verbs['Ending'][num])
     atbilde.append(verbs.Irregular [num])
     atbilde.append((1 - counter/4)*100)
