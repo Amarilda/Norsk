@@ -1,6 +1,7 @@
 ONE THING WHAT WOULD BRING THE GREATEST IMPROVEMENT:
 say, tell - the most common word used, need to isolate and get it right.
 bli vs være
+ligge vs legge
 
 GOALS:
 if __name__ == '__main__':
@@ -12,6 +13,14 @@ dashboard
 - extract text
 - make folder and download pictures
 - append new commercials
+
+01/03/2021
+Todays precision is: 38%
+Your summary:
+100    18
+75     17
+50     10
+25      3
 
 28/02/2021
 Todays precision is: 59%
