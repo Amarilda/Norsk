@@ -28,9 +28,7 @@ def ThePerfect10():
 def VBB():
     df, verbs,e = filing()
     perfect10 =ThePerfect10()
-    #verbs = verbs[((verbs['Ending'].notna()) | (verbs.Irregular == "Y")) & ~verbs['English'].isin(perfect10)].reset_index(drop = True)
     verbs = verbs[~verbs['English'].isin(perfect10)].reset_index(drop = True)
-    #print(f'days {e}')
     print(f'Todays mission is {len(verbs[verbs.Ending.notna()])} A2 verbs and {len(verbs[verbs.Irregular == "Y"])} irregular verbs')
     return df, verbs
 
