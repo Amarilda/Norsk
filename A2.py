@@ -79,7 +79,7 @@ def VerbBender():
             print()
             
     conn = sqlite3.connect('norsk.db')
-    query2 = "SELECT * FROM verbbender ;"
+    query2 = "SELECT * FROM verbbender;"
     df = pd.read_sql_query(query2,conn)
     df['Date'] = pd.to_datetime(df['Date'])
 
