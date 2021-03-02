@@ -4,9 +4,6 @@ bli vs være
 ligge vs legge
 
 GOALS:
-if __name__ == '__main__':
-    A2()
-
 The battle of IG's 
 dashboard
 
@@ -15,12 +12,16 @@ dashboard
 - append new commercials
 
 02/03/2021
-Todays precision is: 50%
++ if __name__ == '__main__': A2()
++ VerbBender+classic music (69%, without 50%)
+Todays precision is: 61%
 Your summary:
-100    10
-75      8
-50      1
-25      1
+100    31
+75     13
+50      4
+25      3
+
+I do not know the word to know!!!!
 
 01/03/2021
 Todays precision is: 38%
@@ -73,7 +74,7 @@ Your summary:
 23/02/2021
 + from norsk import norsk
 + Started to make a hangman
-+ Bought the future autoring
++ Bought the future authoring
 Todays precision is: 46%
 Your summary:
 100    33
@@ -133,8 +134,8 @@ Continued to make Jurmala script.
 + Found all hrefs for the pictures
 
 13/02/2021
-Restrted making Jurmala tu esi mana Jurmala.
-Inspired by mechanicalsoup tutorial, however, mechanical soup was not useful. Would solve my Babbel quest. 
+Restarted making Jurmala tu esi mana Jurmala.
+Inspired by mechanical soup tutorial, however, mechanical soup was not useful. Would solve my Babbel quest. 
 + List of url for the individual advertisement
 
 12/02/2021
@@ -144,7 +145,6 @@ lets add some challenge, how far I can go with 10 mistakes.
 69-66
 26-21
 63-57
-
 
 08/02/2021
 Random day is not used as db started fresh.
@@ -240,7 +240,6 @@ Your summary:
 75.0     11
 25.0      5
 100.0     1
-
 
 23/01/2021
 Your summary:
