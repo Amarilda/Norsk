@@ -4,16 +4,23 @@ bli vs være
 ligge vs legge
 
 GOALS:
-The battle of IG's 
+IG - add an option to guess full word. 1 guess = all lives
 dashboard
 
 - extract text
 - make folder and download pictures
 - append new commercials
 
+03/03/2021
+Todays precision is: 47%
+Your summary:
+75     10
+100     9
+
 02/03/2021
 + if __name__ == '__main__': A2()
 + VerbBender+classic music (69%, without 50%)
++ The battle of IG in Jupyter, need to take nationalities out
 Todays precision is: 61%
 Your summary:
 100    31
