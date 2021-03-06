@@ -11,6 +11,14 @@ dashboard
 - make folder and download pictures
 - append new commercials
 
+06/03/2021
+Todays precision is: 62%
+Your summary:
+100    10
+50      2
+25      2
+75      2
+
 04/03/2021
 Todays precision is: 62%
 Your summary:
