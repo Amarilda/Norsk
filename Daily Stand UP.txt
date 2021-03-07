@@ -4,12 +4,26 @@ bli vs være
 ligge vs legge
 
 GOALS:
-IG - add an option to guess full word. 1 guess = all lives
-dashboard
+MSC
+- r/worlnews
+- r/WallStreetBets 
 
+IG 
+- add an option to guess full word. 1 guess = all lives
+- dashboard
+
+Marmelade
 - extract text
 - make folder and download pictures
 - append new commercials
+
+07/03/2021
++webscrape the r/worlnews
+Todays precision is: 29%
+Your summary:
+75     6
+50     4
+100    4
 
 06/03/2021
 Todays precision is: 62%
