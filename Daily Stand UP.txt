@@ -17,6 +17,13 @@ Marmelade
 - make folder and download pictures
 - append new commercials
 
+08/03/2021
+Todays precision is: 44%
+Your summary:
+100    8
+75     7
+50     3
+
 07/03/2021
 +webscrape the r/worlnews
 Todays precision is: 29%
