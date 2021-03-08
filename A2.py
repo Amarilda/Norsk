@@ -59,7 +59,7 @@ def VerbBender():
             if verbs[i][num] != answer:
                 print(verbs[i][num])
                 counter+= 1   
-        print(f"__________________________{(1 - counter/4):.2%}__________________________")
+        print(f'__________________________{(1 - counter/4):.2%}__________________________')
         atbilde.append(verbs['Ending'][num])
         atbilde.append(verbs.Irregular [num])
         atbilde.append((1 - counter/4)*100)
