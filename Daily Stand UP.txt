@@ -17,6 +17,16 @@ Marmelade
 - make folder and download pictures
 - append new commercials
 
+12/03/2021
+
+#Take a date, add a second add to the existing dataframe. 
+
+datums = pd.to_datetime('2021-02-15 13:39:51')
+datumi = []
+for i in range(0,len(df)):
+    datumi.append(datums + datetime.timedelta(seconds=i))
+df['web_date'] = np.resize(datumi,len(df))
+
 11/03/2021
 Todays precision is: 50%
 Your summary:
