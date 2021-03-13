@@ -13,12 +13,14 @@ IG
 - dashboard
 
 Marmalade
-- extract text
+- find how to store pictures
+- to investigate if I can just drop all comercials and start a new
 - make folder and download pictures
-- append new commercials
 
 13/03/2021
 First day with standing desk, it was set up yesterday, but actual coding was not done. 
++ Added full text to marmelade
++ Added all links for pictures
 Todays precision is: 47%
 Your summary:
 100    9
