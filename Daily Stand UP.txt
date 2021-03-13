@@ -12,13 +12,21 @@ IG
 - add an option to guess full word. 1 guess = all lives
 - dashboard
 
-Marmelade
+Marmalade
 - extract text
 - make folder and download pictures
 - append new commercials
 
-12/03/2021
+13/03/2021
+First day with standing desk, it was set up yesterday, but actual coding was not done. 
+Todays precision is: 47%
+Your summary:
+100    9
+75     6
+50     4
 
+12/03/2021
+STANDING DESK!!!!!!
 #Take a date, add a second add to the existing dataframe. 
 
 datums = pd.to_datetime('2021-02-15 13:39:51')
