@@ -17,6 +17,14 @@ Marmalade
 - to investigate if I can just drop all comercials and start a new
 - make folder and download pictures
 
+16/03/2021
+Todays precision is: 74%
+Your summary:
+100    29
+75      6
+25      2
+50      2
+
 13/03/2021
 First day with standing desk, it was set up yesterday, but actual coding was not done. 
 + Added full text to marmelade
