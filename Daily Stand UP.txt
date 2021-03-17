@@ -17,6 +17,13 @@ Marmalade
 - to investigate if I can just drop all comercials and start a new
 - make folder and download pictures
 
+17/03/2021
+Todays precision is: 52%
+Your summary:
+100    11
+75      7
+50      3
+
 16/03/2021
 Todays precision is: 74%
 Your summary:
