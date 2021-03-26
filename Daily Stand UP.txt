@@ -5,7 +5,6 @@ ligge vs legge
 
 GOALS:
 MSC
-- r/worlnews
 - r/WallStreetBets 
 
 IG 
@@ -16,6 +15,14 @@ Marmalade
 - find how to store pictures
 - to investigate if I can just drop all comercials and start a new
 - make folder and download pictures
+
+26/03/2021
+Todays precision is: 57%
+Your summary:
+100    13
+75      7
+50      2
+25      1
 
 17/03/2021
 Todays precision is: 52%
