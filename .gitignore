@@ -10,3 +10,5 @@ Edites Corpus.ipynb
 *.ipynb
 NorwegianVocubulary.txt
 norsk.py
+a2.spec
+__pycache__/A2.cpython-39.pyc
