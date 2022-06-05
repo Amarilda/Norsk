@@ -1,3 +1,6 @@
+# cd '/Users/Edite/Documents/GitHub/Norsk'
+# python a2.py
+
 import pandas as pd
 #import Levenshtein as lev
 import datetime as datetime
