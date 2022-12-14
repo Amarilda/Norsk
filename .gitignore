@@ -5,4 +5,4 @@ a2.spec
 *.ipynb_checkpoints
 *.ipynb
 *.xlsx
-
+*.db
