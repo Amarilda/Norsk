@@ -1,13 +1,8 @@
-
-.ipynb_checkpoints/Untitled-checkpoint.ipynb
-Untitled.ipynb
-Karense.ipynb
-verbs.xlsx
-VerbBender.xlsx
-babbel2.xlsx
-Edites Corpus.ipynb
-.ipynb_checkpoints/Edites Corpus-checkpoint.ipynb
-*.ipynb
 NorwegianVocubulary.txt
 a2.spec
-__pycache__/A2.cpython-39.pyc
+*__pycache__
+*.csv
+*.ipynb_checkpoints
+*.ipynb
+*.xlsx
+
