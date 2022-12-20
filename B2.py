@@ -1,6 +1,3 @@
-# cd '/Users/Edite/Documents/GitHub/Norsk'
-# python a2.py
-
 import pandas as pd
 import datetime as datetime
 import datetime
@@ -11,37 +8,37 @@ import colorama
 from colorama import Fore, Back, Style
 colorama.init(autoreset=True)
 
-conn = sqlite3.connect('/Users/Edite/Documents/GitHub/Norsk/norsk.db')
+conn = sqlite3.connect('norsk.db')
 
-def filing():
-    #conn = sqlite3.connect('/Users/Edite/Documents/GitHub/Norsk/norsk.db')
-    query = "SELECT * FROM verbs where Ending is not null or Irregular = 'Y';"
-    verbs = pd.read_sql_query(query,conn)
-    query2 = "SELECT * FROM verbbender;"
-    df = pd.read_sql_query(query2,conn)
-    df['Date'] = pd.to_datetime(df['Date'])
-    e = random.randint(4,14)
-    df = df[df.Date > datetime.datetime.now() - datetime.timedelta(days=e)]
-    return df, verbs,e
+def bad_df():
+    connection = sqlite3.connect('norsk.db')
 
-def ThePerfect10():
-    df = filing()[0]
-    perfect10 =[]
-    for i in df.Verb.unique():
-        if float(max(df.Percent[df.Verb == i])) == 100.0:
-            perfect10.append(i)
-    return perfect10
+    cursor = connection.cursor()
+    sql = ('''
+            with 
+            base as (       select Verb, count(*) as total_count
+                            , sum(case when percent !=100 then 1 else 0 end) incorrect
+                            from VerbBender
+                            where VerbBender.Date > date('now', '-45 day')
+                            group by 1),
+            imperfect as (  select Verb, round(cast(incorrect as float)/total_count*100,2) wrong
+                            from base),
+            B2 as (
+                        select * from verbs
+                        where verbs.Ending is not null or verbs.Irregular = "Y" 
+                )
 
-def VBB():
-    df, verbs,e = filing()
-    perfect10 =ThePerfect10()
-    verbs = verbs[~verbs['English'].isin(perfect10)].reset_index(drop = True)
+
+    select  * from B2
+    where English in (select Verb from imperfect where wrong > 75)
+            ''')
+    verbs = pd.read_sql_query(sql,connection)
     print(f'Todays mission is {len(verbs[verbs.Ending.notna()])} A2 verbs and {len(verbs[verbs.Irregular == "Y"])} irregular verbs')
-    return df, verbs
+    return verbs
+
 
 def VerbBender():
-    #print(f"{Fore.GREEN}{Back.YELLOW}{Style.BRIGHT}Red Text")
-    df, verbs = VBB()
+    verbs = bad_df()
     number = len(verbs)
     chance = 10
     bins = []
@@ -71,7 +68,7 @@ def VerbBender():
         atbilde.append(verbs['Ending'][num])
         atbilde.append(verbs.Irregular [num])
         atbilde.append((1 - counter/4)*100)
-        conn = sqlite3.connect('/Users/Edite/Documents/GitHub/Norsk/norsk.db')
+        conn = sqlite3.connect('norsk.db')
         cur = conn.cursor()
         cur.execute("insert into VerbBender(Date, 'Verb', 'C1', 'Infinitive', 'C2', 'PresentTense', 'C3','PastTense', 'C4', 'PastParticiple', 'Ending', 'Irregular', 'Percent') values(?, ?, ?, ?,?, ?, ?, ?,?, ?, ?, ?,?)", atbilde)
         conn.commit()
@@ -86,7 +83,7 @@ def VerbBender():
             chance-=1
             print(f'You have {chance} tries left')
             
-    conn = sqlite3.connect('/Users/Edite/Documents/GitHub/Norsk/norsk.db')
+    conn = sqlite3.connect('norsk.db')
     query2 = "SELECT * FROM verbbender;"
     df = pd.read_sql_query(query2,conn)
     df['Date'] = pd.to_datetime(df['Date'])
