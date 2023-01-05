@@ -15,23 +15,35 @@ def bad_df():
 
     cursor = connection.cursor()
     sql = ('''
-            with 
-            base as (       select Verb, count(*) as total_count
-                            , sum(case when percent !=100 then 1 else 0 end) incorrect
-                            from VerbBender
-                            where VerbBender.Date > date('now', '-45 day')
-                            group by 1),
-            imperfect as (  select Verb, round(cast(incorrect as float)/total_count*100,2) wrong
-                            from base),
-            B2 as (
-                        select * from verbs
-                        where verbs.Ending is not null or verbs.Irregular = "Y" 
-                )
+        with 
+        B2 as (
+                select * from verbs
+                where verbs.Ending is not null or verbs.Irregular = "Y" 
+        ),
+        verb_bender as (select Verb, max(Date) last_date
+                        from VerbBender
+                        group by 1
+                        ),
+        imperfect as (
+                select Verb, count(*) as total_count
+                , sum(case when percent !=100 then 1 else 0 end) incorrect
+                from VerbBender
+                where VerbBender.Date > date('now', '-45 day')
+                group by 1
+        )
 
+        select B2.*, last_date from B2
 
-    select  * from B2
-    where English in (select Verb from imperfect where wrong > 75)
-            ''')
+        left join verb_bender
+        on B2.English = verb_bender.Verb
+
+        where 
+        last_date  < date('now', '-30 day') 
+        or 
+        English in (select Verb from imperfect where round(cast(incorrect as float)/total_count*100,2) > 59 )
+
+        order by 8 desc
+                ''')
     verbs = pd.read_sql_query(sql,connection)
     print(f'Todays mission is {len(verbs[verbs.Ending.notna()])} A2 verbs and {len(verbs[verbs.Irregular == "Y"])} irregular verbs')
     return verbs
