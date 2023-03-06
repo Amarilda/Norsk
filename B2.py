@@ -40,7 +40,9 @@ def bad_df():
         where 
         last_date  < date('now', '-30 day') 
         or 
-        English in (select Verb from imperfect where round(cast(incorrect as float)/total_count*100,2) > 59 )
+        English in (select Verb from imperfect where round(cast(incorrect as float)/total_count*100,2) > 50 )
+        or
+        English not in (select Verb from verb_bender) 
 
         order by 8 desc
                 ''')
@@ -48,9 +50,8 @@ def bad_df():
     print(f'Todays mission is {len(verbs[verbs.Ending.notna()])} A2 verbs and {len(verbs[verbs.Irregular == "Y"])} irregular verbs')
     return verbs
 
-
 def VerbBender():
-    verbs = bad_df()
+    verbs = bad_df()       
     number = len(verbs)
     chance = 10
     bins = []
