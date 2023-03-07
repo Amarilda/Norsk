@@ -1,3 +1,7 @@
+# to be renamed
+# å be, skjønne, kjenne, vite
+#ZeroDivisionError: division by zero
+
 import pandas as pd
 import datetime as datetime
 import datetime
@@ -38,11 +42,15 @@ def bad_df():
         on B2.English = verb_bender.Verb
 
         where 
+        --touch each verb every 30 days
         last_date  < date('now', '-30 day') 
         or 
+        --repeat 50%+ incorrect verbs
+        --next time when it fails on this, add one new verb
         English in (select Verb from imperfect where round(cast(incorrect as float)/total_count*100,2) > 50 )
         or
-        English not in (select Verb from verb_bender) 
+        --add newcomers, as getting to good at incorrect verbs
+        last_date IS NULL 
 
         order by 8 desc
                 ''')
@@ -51,7 +59,8 @@ def bad_df():
     return verbs
 
 def VerbBender():
-    verbs = bad_df()       
+    verbs = bad_df()
+       
     number = len(verbs)
     chance = 10
     bins = []
